@@ -1,0 +1,3467 @@
+spriteTypes = {
+	##############################################################################
+	####  COUNTRY EVENTS need to be event_[name].dds        ######################
+	##############################################################################
+
+	################
+	# GENERICS
+	################
+	spriteType = {
+		name = "GFX_event_generic_desert_1"
+		texturefile = "gfx/event_pictures/event_generic_desert_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_desert_2"
+		texturefile = "gfx/event_pictures/event_generic_desert_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_desert_2"
+		texturefile = "gfx/event_pictures/event_generic_desert_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_raider_1"
+		texturefile = "gfx/event_pictures/event_generic_raider_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ruins_1"
+		texturefile = "gfx/event_pictures/event_generic_ruins_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ruins_2"
+		texturefile = "gfx/event_pictures/event_generic_ruins_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_strangerevent"
+		texturefile = "gfx/event_pictures/strangerevent.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vault_generic_4"
+		texturefile = "gfx/event_pictures/generic/vault_generic_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_cartel"
+		texturefile = "gfx/event_pictures/event_cartel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_generic_ruins_3"
+		texturefile = "gfx/event_pictures/event_generic_ruins_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ruins_4"
+		texturefile = "gfx/event_pictures/event_generic_ruins_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ruins_5"
+		texturefile = "gfx/event_pictures/event_generic_ruins_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_settlement_1"
+		texturefile = "gfx/event_pictures/event_generic_settlement_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_settlement_2"
+		texturefile = "gfx/event_pictures/event_generic_settlement_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_settlement_3"
+		texturefile = "gfx/event_pictures/event_generic_settlement_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_settlement_4"
+		texturefile = "gfx/event_pictures/event_generic_settlement_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_caravan"
+		texturefile = "gfx/event_pictures/event_generic_caravan.dds"
+	}
+	spriteType = {
+		name = "GFX_event_radio_new_vegas"
+		texturefile = "gfx/event_pictures/radio_new_vegas.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_gun_runners"
+		texturefile = "gfx/event_pictures/event_generic_gun_runners.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_snow_city"
+		texturefile = "gfx/event_pictures/event_generic_snow_city.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_nuclear_explosion"
+		texturefile = "gfx/event_pictures/event_generic_nuclear_explosion.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_event_deathclaw"
+		texturefile = "gfx/event_pictures/event_deathclaw.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_caravan_game"
+		texturefile = "gfx/event_pictures/caravan_game.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_missile_silo"
+		texturefile = "gfx/event_pictures/event_generic_missile_silo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_zax"
+		texturefile = "gfx/event_pictures/event_generic_zax.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_nuka_lurk"
+		texturefile = "gfx/event_pictures/event_nuka_lurk.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ufo_crash"
+		texturefile = "gfx/event_pictures/event_crashed_ufo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_event_stealthboy"
+		texturefile = "gfx/event_pictures/event_stealthboy.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_desert"
+		texturefile = "gfx/event_pictures/fallout_desert.dds"
+	}
+
+
+	################
+	# Generic Subfolder
+	################
+
+	spriteType = {
+		name = "GFX_event_sub_generic_airport_exterior"
+		texturefile = "gfx/event_pictures/generic/airport_exterior.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_airport_interior"
+		texturefile = "gfx/event_pictures/generic/airport_interior.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_computer_scav"
+		texturefile = "gfx/event_pictures/generic/computer_scavenger.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_container_bazaar"
+		texturefile = "gfx/event_pictures/generic/container_bazaar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ghouls"
+		texturefile = "gfx/event_pictures/generic/ghouls.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_hunting"
+		texturefile = "gfx/event_pictures/generic/hunting.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_mist"
+		texturefile = "gfx/event_pictures/generic/mist.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_plane_1"
+		texturefile = "gfx/event_pictures/generic/plane_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_plane_2"
+		texturefile = "gfx/event_pictures/generic/plane_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_quarry"
+		texturefile = "gfx/event_pictures/generic/quarry.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_quarry_2"
+		texturefile = "gfx/event_pictures/generic/quarry_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_1"
+		texturefile = "gfx/event_pictures/generic/ruins_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_2"
+		texturefile = "gfx/event_pictures/generic/ruins_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_3"
+		texturefile = "gfx/event_pictures/generic/ruins_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_4"
+		texturefile = "gfx/event_pictures/generic/ruins_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_5"
+		texturefile = "gfx/event_pictures/generic/ruins_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_6"
+		texturefile = "gfx/event_pictures/generic/ruins_6.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_7"
+		texturefile = "gfx/event_pictures/generic/ruins_7.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_8"
+		texturefile = "gfx/event_pictures/generic/ruins_8.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_9"
+		texturefile = "gfx/event_pictures/generic/ruins_9.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_divide"
+		texturefile = "gfx/event_pictures/generic/ruins_divide.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_scrap_yard"
+		texturefile = "gfx/event_pictures/generic/scrap_yard.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_sea_shanty"
+		texturefile = "gfx/event_pictures/generic/sea_shanty.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_sky_pirates"
+		texturefile = "gfx/event_pictures/generic/sky_pirates.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_swamo"
+		texturefile = "gfx/event_pictures/generic/swamp.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_train_yard"
+		texturefile = "gfx/event_pictures/generic/train_yard.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_war_room"
+		texturefile = "gfx/event_pictures/generic/war_room.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_1"
+		texturefile = "gfx/event_pictures/generic/wasteland_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_2"
+		texturefile = "gfx/event_pictures/generic/wasteland_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_3"
+		texturefile = "gfx/event_pictures/generic/wasteland_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_4"
+		texturefile = "gfx/event_pictures/generic/wasteland_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_battle"
+		texturefile = "gfx/event_pictures/generic/battle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_city"
+		texturefile = "gfx/event_pictures/generic/city.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_fish_town"
+		texturefile = "gfx/event_pictures/generic/fish_town.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_post_war_construction_site"
+		texturefile = "gfx/event_pictures/generic/post_war_construction_site.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_megaton_bomb"
+		texturefile = "gfx/event_pictures/generic/megaton.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_megaton_shrine"
+		texturefile = "gfx/event_pictures/generic/megaton_shrine.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_the_one"
+		texturefile = "gfx/event_pictures/generic/the_one.dds"
+	}
+	spriteType = {
+		name = "GFX_event_fallout_moon"
+		texturefile = "gfx/event_pictures/fallout_moon.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_ice_cream"
+		texturefile = "gfx/event_pictures/event_ice_cream.dds"
+	}
+	spriteType = {
+		name = "GFX_event_shady_sands"
+		texturefile = "gfx/event_pictures/eag_shady_sands.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_brain_2"
+		texturefile = "gfx/event_pictures/event_brain_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_road"
+		texturefile = "gfx/event_pictures/generic/road.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_shanty"
+		texturefile = "gfx/event_pictures/generic/shanty.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_subway"
+		texturefile = "gfx/event_pictures/generic/subway.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_5"
+		texturefile = "gfx/event_pictures/generic/wasteland_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wasteland_river"
+		texturefile = "gfx/event_pictures/generic/wasteland_river.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_city_2"
+		texturefile = "gfx/event_pictures/generic/city_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_coast"
+		texturefile = "gfx/event_pictures/generic/coast.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_factory"
+		texturefile = "gfx/event_pictures/generic/factory.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_fortress"
+		texturefile = "gfx/event_pictures/generic/fortress.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_highway"
+		texturefile = "gfx/event_pictures/generic/highway.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_house_1"
+		texturefile = "gfx/event_pictures/generic/house_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_house_2"
+		texturefile = "gfx/event_pictures/generic/house_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_hunting_mirelurk"
+		texturefile = "gfx/event_pictures/generic/hunting_mirelurk.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_marsh"
+		texturefile = "gfx/event_pictures/generic/marsh.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wreck"
+		texturefile = "gfx/event_pictures/generic/wreck.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_autumn"
+		texturefile = "gfx/event_pictures/generic/autumn.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_boathouse"
+		texturefile = "gfx/event_pictures/generic/boathouse.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_computer_core"
+		texturefile = "gfx/event_pictures/generic/computer_core.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_dock"
+		texturefile = "gfx/event_pictures/generic/dock.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_railroad"
+		texturefile = "gfx/event_pictures/generic/railroad.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_reactor_1"
+		texturefile = "gfx/event_pictures/generic/reactor_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_ruins_10"
+		texturefile = "gfx/event_pictures/generic/ruins_10.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_trees"
+		texturefile = "gfx/event_pictures/generic/trees.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_tunnel"
+		texturefile = "gfx/event_pictures/generic/tunnel.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_wreckage"
+		texturefile = "gfx/event_pictures/generic/wreckage.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_airport_camp"
+		texturefile = "gfx/event_pictures/generic/airport_camp.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_boats"
+		texturefile = "gfx/event_pictures/generic/boats.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_corridor"
+		texturefile = "gfx/event_pictures/generic/corridor.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_reactor_core"
+		texturefile = "gfx/event_pictures/generic/reactor_core.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_sailship"
+		texturefile = "gfx/event_pictures/generic/sailship.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_nevada_sign"
+		texturefile = "gfx/event_pictures/generic/nevada_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_radioactive_cave"
+		texturefile = "gfx/event_pictures/generic/event_radioactive_cave.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_washington_needle"
+		texturefile = "gfx/event_pictures/generic/event_washington_needle.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_event_hesphaestus"
+		texturefile = "gfx/event_pictures/event_hesphaestus.dds"
+	}
+	spriteType = {
+		name = "GFX_event_montana_winter_truckers"
+		texturefile = "gfx/event_pictures/event_montana_winter_truckers.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_1"
+		texturefile = "gfx/event_pictures/generic/vault_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_2"
+		texturefile = "gfx/event_pictures/generic/vault_generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_3"
+		texturefile = "gfx/event_pictures/generic/vault_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_4"
+		texturefile = "gfx/event_pictures/generic/vault_generic_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_little_reno"
+		texturefile = "gfx/event_pictures/event_little_reno.dds"
+	}
+	spriteType = {
+		name = "GFX_event_cold_winter_location"
+		texturefile = "gfx/event_pictures/event_cold_winter_location.dds"
+	}
+	spriteType = {
+		name = "GFX_event_space"
+		texturefile = "gfx/event_pictures/event_space.dds"
+	}
+	spriteType = {
+		name = "GFX_event_robot_parade"
+		texturefile = "gfx/event_pictures/event_robot_parade.dds"
+    }
+	spriteType = {
+		name = "GFX_event_mount_rushmore"
+		texturefile = "gfx/event_pictures/mount_rushmore.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_1"
+		texturefile = "gfx/event_pictures/generic/vault_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_2"
+		texturefile = "gfx/event_pictures/generic/vault_generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_3"
+		texturefile = "gfx/event_pictures/generic/vault_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sub_generic_vault_generic_4"
+		texturefile = "gfx/event_pictures/generic/vault_generic_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_1"
+		texturefile = "gfx/event_pictures/generic/tinkerer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_2"
+		texturefile = "gfx/event_pictures/generic/tinkerer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_3"
+		texturefile = "gfx/event_pictures/generic/tinkerer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_1"
+		texturefile = "gfx/event_pictures/generic/factory_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_2"
+		texturefile = "gfx/event_pictures/generic/factory_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_3"
+		texturefile = "gfx/event_pictures/generic/factory_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_4"
+		texturefile = "gfx/event_pictures/generic/factory_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_reactor_2"
+		texturefile = "gfx/event_pictures/generic/reactor_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industrial_1"
+		texturefile = "gfx/event_pictures/generic/industrial_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industrial_2"
+		texturefile = "gfx/event_pictures/generic/industrial_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industrial_3"
+		texturefile = "gfx/event_pictures/generic/industrial_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_4"
+		texturefile = "gfx/event_pictures/generic/tinkerer_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_5"
+		texturefile = "gfx/event_pictures/generic/factory_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_1"
+		texturefile = "gfx/event_pictures/generic/industry_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_2"
+		texturefile = "gfx/event_pictures/generic/industry_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_5"
+		texturefile = "gfx/event_pictures/generic/tinkerer_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_tinkerer_6"
+		texturefile = "gfx/event_pictures/generic/tinkerer_6.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_3"
+		texturefile = "gfx/event_pictures/generic/industry_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_civil_unrest"
+		texturefile = "gfx/event_pictures/generic/civil_unrest.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry"
+		texturefile = "gfx/event_pictures/generic/industry.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_machine"
+		texturefile = "gfx/event_pictures/generic/machine.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_forge_1"
+		texturefile = "gfx/event_pictures/generic/forge_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_4"
+		texturefile = "gfx/event_pictures/generic/industry_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_5"
+		texturefile = "gfx/event_pictures/generic/industry_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_forge_atomic"
+		texturefile = "gfx/event_pictures/generic/forge_atomic.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_forge_2"
+		texturefile = "gfx/event_pictures/generic/forge_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_forge_3"
+		texturefile = "gfx/event_pictures/generic/forge_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_industry_6"
+		texturefile = "gfx/event_pictures/generic/industry_6.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_6"
+		texturefile = "gfx/event_pictures/generic/factory_6.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_7"
+		texturefile = "gfx/event_pictures/generic/factory_7.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_8"
+		texturefile = "gfx/event_pictures/generic/factory_8.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_ruins_1"
+		texturefile = "gfx/event_pictures/generic/factory_ruins_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_ruins_2"
+		texturefile = "gfx/event_pictures/generic/factory_ruins_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_factory_ruins_3"
+		texturefile = "gfx/event_pictures/generic/factory_ruins_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_wasteland_urban"
+		texturefile = "gfx/event_pictures/generic/wasteland_urban.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_wasteland_ruins"
+		texturefile = "gfx/event_pictures/generic/wasteland_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_ruins_burning"
+		texturefile = "gfx/event_pictures/generic/ruins_burning.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_nuclear_plant"
+		texturefile = "gfx/event_pictures/generic/nuclear_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_event_giddyup_buttercup"
+		texturefile = "gfx/event_pictures/event_giddyup_buttercup.dds"
+	}
+	spriteType = {
+		name = "GFX_event_petro_chico_logo"
+		texturefile = "gfx/event_pictures/event_petro_chico_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_cowboy_hat"
+		texturefile = "gfx/event_pictures/event_cowboy_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_event_tank_shot"
+		texturefile = "gfx/event_pictures/event_tank_shot.dds"
+	}
+
+
+
+	#################
+	# Art Pieces
+	# Sorted by Year
+	#
+	# Format is
+	# comment title: Name, Artist, Year
+	# spriteType name: GFX_event_art_artistname_XX
+	# textureFile name: event_art_artistname_xx.dds
+	#################
+
+	# Animation, Francis Picabia 1914
+	spriteType = {
+		name = "GFX_event_art_francis_picabia_1"
+		texturefile = "gfx/event_pictures/event_art_francis_picabia_1.dds"
+	}
+
+	# On White II, Wassily Kandinsky 1923
+	spriteType = {
+		name = "GFX_event_art_wassily_kandinsky_1"
+		texturefile = "gfx/event_pictures/event_art_wassily_kandinsky_1.dds"
+	}
+
+	# Carnaval D'Arlequi, Joan Miro 1924
+	spriteType = {
+		name = "GFX_event_art_joan_miro_1"
+		texturefile = "gfx/event_pictures/event_art_joan_miro_1.dds"
+	}
+
+	#################
+	# NCR
+	#################
+	spriteType = {
+		name = "GFX_event_NCR_ice_cream"
+		texturefile = "gfx/event_pictures/NCR_ice_cream.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_ranger_cards"
+		texturefile = "gfx/event_pictures/event_ncr_ranger_cards.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_trenches"
+		texturefile = "gfx/event_pictures/event_ncr_trenches.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_election_posters"
+		texturefile = "gfx/event_pictures/ncr_election_posters.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ghouls"
+		texturefile = "gfx/event_pictures/event_ghouls.tga"
+	}
+	spriteType = {
+		name = "GFX_event_nice_town"
+		texturefile = "gfx/event_pictures/event_nice_town.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_startup"
+		texturefile = "gfx/event_pictures/event_ncr_startup.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_congress"
+		texturefile = "gfx/event_pictures/event_ncr_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_event_helios_one_sign"
+		texturefile = "gfx/event_pictures/event_helios_one_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_watch"
+		texturefile = "gfx/event_pictures/ncr_watch.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_battle"
+		texturefile = "gfx/event_pictures/event_ncr_battle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_mojave_camp"
+		texturefile = "gfx/event_pictures/event_ncr_mojave_camp.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_victory"
+		texturefile = "gfx/event_pictures/event_ncr_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_mojave_outpost"
+		texturefile = "gfx/event_pictures/event_ncr_mojave_outpost.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_camp"
+		texturefile = "gfx/event_pictures/event_ncr_camp.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_night"
+		texturefile = "gfx/event_pictures/event_ncr_night.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_battle_for_hoover_dam"
+		texturefile = "gfx/event_pictures/event_ncr_battle_for_hoover_dam.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_hoover_dam"
+		texturefile = "gfx/event_pictures/event_ncr_hoover_dam.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_settlers"
+		texturefile = "gfx/event_pictures/event_ncr_settlers.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_poster"
+		texturefile = "gfx/event_pictures/event_ncr_poster.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_money_1"
+		texturefile = "gfx/event_pictures/event_ncr_money_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_money_2"
+		texturefile = "gfx/event_pictures/event_ncr_money_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_caravan"
+		texturefile = "gfx/event_pictures/event_ncr_caravan.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCR_helios_one"
+		texturefile = "gfx/event_pictures/event_ncr_helios_one.dds"
+	}
+	spriteType = {
+		name = "GFX_event_baseball"
+		texturefile = "gfx/event_pictures/event_baseball.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_moore_flags"
+		texturefile = "gfx/event_pictures/event_ncr_moore_flags.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_calhoun_logo"
+		texturefile = "gfx/event_pictures/event_ncr_calhoun_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_black_bear"
+		texturefile = "gfx/event_pictures/event_ncr_black_bear.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_military_base"
+		texturefile = "gfx/event_pictures/ncr_military_base.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_hayes_elected"
+		texturefile = "gfx/event_pictures/event_ncr_hayes_elected.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_drummond_and_bos"
+		texturefile = "gfx/event_pictures/event_ncr_drummond_and_bos.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_hidden_valley_bunker"
+		texturefile = "gfx/event_pictures/event_ncr_hidden_valley_bunker.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_portland"
+		texturefile = "gfx/event_pictures/event_ncr_portland.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_jail"
+		texturefile = "gfx/event_pictures/event_ncr_jail.dds"
+	}
+
+	######
+	#  MOT
+	#####
+	spriteType = {
+		name = "GFX_event_mot_ranger_sequoia"
+		texturefile = "gfx/event_pictures/event_mot_ranger_sequoia.dds"
+	}
+
+
+	#################
+	# CES
+	#################
+	spriteType = {
+		name = "GFX_event_CES_startup"
+		texturefile = "gfx/event_pictures/event_ces_startup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_caesar_death"
+		texturefile = "gfx/event_pictures/event_caesar_death.dds"
+	}
+	spriteType = {
+		name = "GFX_event_reservation_trade"
+		texturefile = "gfx/event_pictures/event_reservation_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_event_legion_slaves"
+		texturefile = "gfx/event_pictures/event_legion_slaves.dds"
+	}
+	spriteType = {
+		name = "GFX_event_legion_slaves_2"
+		texturefile = "gfx/event_pictures/event_legion_slaves_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_lanius_planning"
+		texturefile = "gfx/event_pictures/event_lanius_planning.dds"
+	}
+	spriteType = {
+		name = "GFX_event_lanius_cool"
+		texturefile = "gfx/event_pictures/event_lanius_cool.dds"
+	}
+	spriteType = {
+		name = "GFX_event_LAC_dog"
+		texturefile = "gfx/event_pictures/event_LAC_dog.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_event_CES_first_battle_for_hoover_dam"
+		texturefile = "gfx/event_pictures/event_ces_first_battle_for_hoover_dam.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_auto_doc"
+		texturefile = "gfx/event_pictures/event_auto_doc.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_malpais_legate"
+		texturefile = "gfx/event_pictures/event_ces_malpais_legate.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_camp_1"
+		texturefile = "gfx/event_pictures/event_ces_camp_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_camp_2"
+		texturefile = "gfx/event_pictures/event_ces_camp_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_whitelegs"
+		texturefile = "gfx/event_pictures/event_ces_whitelegs.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_vulpes"
+		texturefile = "gfx/event_pictures/event_ces_vulpes.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_caesar"
+		texturefile = "gfx/event_pictures/event_ces_caesar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_burning"
+		texturefile = "gfx/event_pictures/event_ces_burning.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_fighting_advanced_tribals"
+		texturefile = "gfx/event_pictures/event_ces_fighting_advanced_tribals.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_fighting_tribals"
+		texturefile = "gfx/event_pictures/event_ces_fighting_tribals.dds"
+	}
+	spriteType = {
+		name = "GFX_event_CES_hoover_dam"
+		texturefile = "gfx/event_pictures/event_ces_hoover_dam.dds"
+	}
+	spriteType = {
+		name = "GFX_event_twosun_car"
+		texturefile = "gfx/event_pictures/event_twosun_car.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_navajo"
+		texturefile = "gfx/event_pictures/event_ces_navajo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_divide1"
+		textureFile = "gfx/event_pictures/event_divide1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vault_tec_logo"
+		textureFile = "gfx/event_pictures/event_vault_tec_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_aurelius_flag"
+		textureFile = "gfx/event_pictures/event_ces_aurelius_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_lanius_flag"
+		textureFile = "gfx/event_pictures/event_ces_lanius_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_lucius_flag"
+		textureFile = "gfx/event_pictures/event_ces_lucius_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_malpais_flag"
+		textureFile = "gfx/event_pictures/event_ces_malpais_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_vulpes_flag"
+		textureFile = "gfx/event_pictures/event_ces_vulpes_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ces_ghoul_dogs_picture"
+		texturefile = "gfx/event_pictures/event_ces_ghoul_dogs_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_event_debug_centurion_encounter"
+		textureFile = "gfx/event_pictures/event_debug_centurion.dds"
+	}
+
+	##########
+	# Boulder Dome
+	#################
+	spriteType = {
+		name = "GFX_event_boulder_dome_panorama"
+		texturefile = "gfx/event_pictures/event_boulder_dome_panorama.dds"
+	}
+	spriteType = {
+		name = "GFX_event_boulder_dome_suits"
+		texturefile = "gfx/event_pictures/event_boulder_dome_suits.dds"
+	}
+
+	##########
+	# BOS
+	#################
+	spriteType = {
+		name = "GFX_event_BOS_desert_patrol"
+		texturefile = "gfx/event_pictures/event_bos_desert_patrol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_bunker_door"
+		texturefile = "gfx/event_pictures/event_bos_bunker_door.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_settler_defense"
+		texturefile = "gfx/event_pictures/event_bos_settler_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_super_mutant"
+		texturefile = "gfx/event_pictures/event_bos_super_mutant.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_our_founding"
+		texturefile = "gfx/event_pictures/event_bos_our_founding.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_our_interim"
+		texturefile = "gfx/event_pictures/event_bos_our_interim.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BOS_underground_construction"
+		texturefile = "gfx/event_pictures/event_bos_underground_construction.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_bos_relations"
+		texturefile = "gfx/event_pictures/event_ncr_bos_relations.dds"
+	}
+
+	#################
+	# BDT
+	#################
+	spriteType = {
+		name = "GFX_event_BDT_geck"
+		texturefile = "gfx/event_pictures/event_BDT_geck.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BDT_odious_king"
+		texturefile = "gfx/event_pictures/event_BDT_odious_king.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BDT_crimson_forest"
+		texturefile = "gfx/event_pictures/event_BDT_crimson_forest.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BDT_red_room"
+		texturefile = "gfx/event_pictures/event_BDT_red_room.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BDT_great_northern_hotel"
+		texturefile = "gfx/event_pictures/event_BDT_great_northern_hotel.dds"
+	}
+	#################
+	# SOK GRD TOF Nevada
+	#################
+	spriteType = {
+		name = "GFX_event_SOK_start"
+		texturefile = "gfx/event_pictures/event_SOK_start.dds"
+	}
+
+	#################
+	# NCN
+	#################
+	spriteType = {
+		name = "GFX_event_NCN_new_canaan"
+		texturefile = "gfx/event_pictures/event_ncn_new_canaan.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NCN_pioneer_day"
+		texturefile = "gfx/event_pictures/event_ncn_pioneer_day.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ENC_legion_conquest"
+		texturefile = "gfx/event_pictures/event_enc_legion_conquest.dds"
+	}
+	spriteType = {
+		name = "GFX_event_joshua_graham"
+		texturefile = "gfx/event_pictures/event_joshua_graham.dds"
+	}
+	spriteType = {
+		name = "GFX_event_zion"
+		texturefile = "gfx/event_pictures/event_zion.dds"
+	}
+	spriteType = {
+		name = "GFX_event_gold"
+		texturefile = "gfx/event_pictures/event_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ghost_of_she"
+		texturefile = "gfx/event_pictures/event_ghost_of_she.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_deathclaw_2"
+		texturefile = "gfx/event_pictures/event_deathclaw_2.dds"
+	}
+	#################
+	# ENC
+	#################
+	spriteType = {
+		name = "GFX_event_ENC_soldiers"
+		texturefile = "gfx/event_pictures/event_enc_soldiers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_enc_chicago_secretary"
+		texturefile = "gfx/event_pictures/enc_chicago_secretary.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_reform_propaganda"
+		texturefile = "gfx/event_pictures/event_enc_reform_propaganda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event__enc_1_soldier"
+		texturefile = "gfx/event_pictures/event_enc_1_soldier.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_4th_july"
+		texturefile = "gfx/event_pictures/event_enc_4th_july.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_america_eternity"
+		texturefile = "gfx/event_pictures/event_enc_america_eternity.dds"
+	}
+	spriteType = {
+		name = "GFX_event_american_bunting"
+		texturefile = "gfx/event_pictures/event_american_bunting.dds"
+	}
+	#################
+	# ARR
+	#################
+	spriteType = {
+		name = "GFX_event_ARR_arroyo"
+		texturefile = "gfx/event_pictures/event_arr_arroyo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_arr_enclave_oil"
+		texturefile = "gfx/event_pictures/event_arr_enclave_oil.dds"
+	}
+
+	#################
+	# Attis Army
+	#################
+	spriteType = {
+		name = "GFX_event_attis_1"
+		texturefile = "gfx/event_pictures/event_attis_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_attis_2"
+		texturefile = "gfx/event_pictures/event_attis_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_attis_super_mutant_rumble"
+		texturefile = "gfx/event_pictures/event_attis_super_mutant_rumble.dds"
+	}
+
+	#################
+	# Bank End
+	#################
+	spriteType = {
+		name = "GFX_event_Bank_end_expense_report"
+		texturefile = "gfx/event_pictures/Bank_end_expense_report.dds"
+	}
+	#################
+	# SHI
+	#################
+	spriteType = {
+		name = "GFX_event_SHI_shitown"
+		texturefile = "gfx/event_pictures/event_shi_shitown.dds"
+	}
+	spriteType = {
+		name = "GFX_event_SHI_good"
+		texturefile = "gfx/event_pictures/event_shi_good.dds"
+	}
+	spriteType = {
+		name = "GFX_event_new_san_fran"
+		texturefile = "gfx/event_pictures/event_new_san_fran.dds"
+	}
+	spriteType = {
+		name = "GFX_event_tanker"
+		texturefile = "gfx/event_pictures/event_tanker.dds"
+	}
+	spriteType = {
+		name = "GFX_event_shi_bos_chapter"
+		texturefile = "gfx/event_pictures/event_shi_bos_chapter.dds"
+	}
+	#################
+	# Fort Cap Hell
+	#################
+	spriteType = {
+		name = "GFX_event_victory_parade_soldiers_cph"
+		texturefile = "gfx/event_pictures/victory_parade_soldiers_cph.dds"
+	}
+	#################
+	# Electorate
+	#################
+	spriteType = {
+		name = "GFX_event_STN_coup"
+		texturefile = "gfx/event_pictures/event_STN_coup.dds"
+	}
+	spriteType = {
+		name = "GFX_event_stn_knights"
+		texturefile = "gfx/event_pictures/event_stn_knights.dds"
+	}
+	spriteType = {
+		name = "GFX_event_STN_daniel_returns"
+		texturefile = "gfx/event_pictures/event_STN_daniel_returns.dds"
+	}
+	spriteType = {
+		name = "GFX_event_STN_marriage"
+		texturefile = "gfx/event_pictures/event_STN_marriage.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_general"
+		texturefile = "gfx/event_pictures/event_dun_general.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_rosewood"
+		texturefile = "gfx/event_pictures/event_dun_rosewood.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_catcher"
+		texturefile = "gfx/event_pictures/event_dun_catcher.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_steel_dame"
+		texturefile = "gfx/event_pictures/event_dun_steel_dame.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_warmachine"
+		texturefile = "gfx/event_pictures/event_dun_warmachine.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_industry_1"
+		texturefile = "gfx/event_pictures/event_dun_industry_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_industry_2"
+		texturefile = "gfx/event_pictures/event_dun_industry_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_power"
+		texturefile = "gfx/event_pictures/event_dun_power.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_sparkblades"
+		texturefile = "gfx/event_pictures/event_dun_sparkblades.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dun_welcome"
+		texturefile = "gfx/event_pictures/event_dun_welcome.dds"
+	}
+	spriteType = {
+		name = "GFX_event_plt_lucifer"
+		texturefile = "gfx/event_pictures/event_plt_lucifer.dds"
+	}
+	spriteType = {
+		name = "GFX_event_plt_maxwell_chase"
+		texturefile = "gfx/event_pictures/event_plt_maxwell_chase.dds"
+	}
+	spriteType = {
+		name = "GFX_event_hope_hat"
+		texturefile = "gfx/event_pictures/event_hope_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_event_csis_prime_minister"
+		texturefile = "gfx/event_pictures/event_csis_prime_minister.dds"
+	}
+	spriteType = {
+		name = "GFX_event_frg_children_1"
+		texturefile = "gfx/event_pictures/event_frg_children_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_frg_children_2"
+		texturefile = "gfx/event_pictures/event_frg_children_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_leshy_generic"
+		texturefile = "gfx/event_pictures/event_leshy_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_event_littlehope"
+		texturefile = "gfx/event_pictures/event_littlehope.dds"
+	}
+	spriteType = {
+		name = "GFX_event_spectral_cabal"
+		texturefile = "gfx/event_pictures/event_spectral_cabal.dds"
+	}
+	spriteType = {
+		name = "GFX_event_umbravore"
+		texturefile = "gfx/event_pictures/event_umbravore_photo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_destiny_bunker"
+		texturefile = "gfx/event_pictures/event_destiny_bunker.dds"
+	}
+	spriteType = {
+		name = "GFX_event_destiny_bust"
+		texturefile = "gfx/event_pictures/event_destiny_bust.dds"
+	}
+	spriteType = {
+		name = "GFX_event_hope_bust"
+		texturefile = "gfx/event_pictures/event_hope_bust.dds"
+	}
+	#################
+	# SHI
+	#################
+	spriteType = {
+		name = "GFX_event_SHI_shitown"
+		texturefile = "gfx/event_pictures/event_shi_shitown.dds"
+	}
+	spriteType = {
+		name = "GFX_event_SHI_good"
+		texturefile = "gfx/event_pictures/event_shi_good.dds"
+	}
+
+	#################
+	# DES
+	#################
+	spriteType = {
+		name = "GFX_event_DES_rangers_symbol"
+		texturefile = "gfx/event_pictures/event_des_rangers_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_desert_rangers_marching"
+		texturefile = "gfx/event_pictures/event_desert_rangers_marching.dds"
+	}
+
+
+	#################
+	# VEG
+	#################
+	spriteType = {
+		name = "GFX_event_VEG_battle"
+		texturefile = "gfx/event_pictures/event_veg_battle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_gomorrah"
+		texturefile = "gfx/event_pictures/event_veg_gomorrah.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_lucky38"
+		texturefile = "gfx/event_pictures/event_veg_lucky38.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_platinumchip"
+		texturefile = "gfx/event_pictures/event_veg_platinumchip.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_securitronvault"
+		texturefile = "gfx/event_pictures/event_veg_securitronvault.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_strip"
+		texturefile = "gfx/event_pictures/event_veg_strip.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_thekings"
+		texturefile = "gfx/event_pictures/event_veg_thekings.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_khans"
+		texturefile = "gfx/event_pictures/event_veg_khans.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_tops"
+		texturefile = "gfx/event_pictures/event_veg_tops.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_ultraluxe"
+		texturefile = "gfx/event_pictures/event_veg_ultraluxe.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_vault21"
+		texturefile = "gfx/event_pictures/event_veg_vault21.dds"
+	}
+	spriteType = {
+		name = "GFX_event_VEG_wall"
+		texturefile = "gfx/event_pictures/event_veg_wall.dds"
+	}
+
+	#################
+	# April Fools
+	#################
+	spriteType = {
+		name = "GFX_event_MLP_pony"
+		texturefile = "gfx/event_pictures/event_mlp_pony.dds"
+	}
+	spriteType = {
+		name = "GFX_event_UFO_invasion"
+		texturefile = "gfx/event_pictures/event_ufo_invasion.dds"
+	}
+	spriteType = {
+		name = "GFX_event_piglin_invasion"
+		texturefile = "gfx/event_pictures/event_piglins_invade.dds"
+	}
+
+	#################
+	# MDT
+	#################
+	spriteType = {
+		name = "GFX_event_MDT_grognak"
+		texturefile = "gfx/event_pictures/event_mdt_grognak.dds"
+	}
+
+	#################
+	# MOJ
+	#################
+	spriteType = {
+		name = "GFX_event_MOJ_a_forgotten_hellscape"
+		texturefile = "gfx/event_pictures/event_moj_a_forgotten_hellscape.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_close_down_van_graffs"
+		texturefile = "gfx/event_pictures/event_moj_close_down_van_graffs.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_contact_the_west"
+		texturefile = "gfx/event_pictures/event_moj_contact_the_west.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_helios_one"
+		texturefile = "gfx/event_pictures/event_moj_helios_one.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_ncr_raids"
+		texturefile = "gfx/event_pictures/event_moj_ncr_raids.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_patrol"
+		texturefile = "gfx/event_pictures/event_moj_patrol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_rumours_of_the_old_world"
+		texturefile = "gfx/event_pictures/event_moj_rumours_of_the_old_world.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_sierra_madre"
+		texturefile = "gfx/event_pictures/event_moj_sierra_madre.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_sierra_madre_cloud"
+		texturefile = "gfx/event_pictures/event_moj_sierra_madre_cloud.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_sierra_madre_vault"
+		texturefile = "gfx/event_pictures/event_moj_sierra_madre_vault.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_what_remains"
+		texturefile = "gfx/event_pictures/event_moj_what_remains.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_dog_god"
+		texturefile = "gfx/event_pictures/event_moj_dog_god.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_message_ncr"
+		texturefile = "gfx/event_pictures/event_moj_message_ncr.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_ncr_treaty"
+		texturefile = "gfx/event_pictures/event_moj_ncr_treaty.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MOJ_dean_and_vera"
+		texturefile = "gfx/event_pictures/event_moj_dean_and_vera.dds"
+	}
+	spriteType = {
+		name = "GFX_event_big_mt_mojave_drive_inn"
+		texturefile = "gfx/event_pictures/event_big_mt_mojave_drive_inn.dds"
+	}
+	spriteType = {
+		name = "GFX_event_big_mt_the_dome"
+		texturefile = "gfx/event_pictures/event_big_mt_the_dome.dds"
+	}
+	spriteType = {
+		name = "GFX_event_big_mt_event_weird_science"
+		texturefile = "gfx/event_pictures/event_big_mt_weird_science.dds"
+	}
+
+	################
+	# FOLLOWRS
+	################
+	spriteType = {
+		name = "GFX_event_followers_medicine"
+		texturefile = "gfx/event_pictures/event_followers_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_event_followers_chillin"
+		texturefile = "gfx/event_pictures/event_followers_chillin.dds"
+	}
+	spriteType = {
+		name = "GFX_event_followers_expelled"
+		texturefile = "gfx/event_pictures/event_followers_expelled.dds"
+	}
+	spriteType = {
+		name = "GFX_event_followers_fort"
+		texturefile = "gfx/event_pictures/event_followers_fort.dds"
+	}
+	spriteType = {
+		name = "GFX_event_followers_generic"
+		texturefile = "gfx/event_pictures/event_followers_generic.dds"
+	}
+	#####
+	# DAUGHTERS OF HECATE & ORO
+	#####
+	spriteType = {
+		name = "GFX_event_daughters_of_hecate"
+		texturefile = "gfx/event_pictures/event_daughters_of_hecate.dds"
+	}
+	spriteType = {
+		name = "GFX_event_oro_ouroboros"
+		texturefile = "gfx/event_pictures/event_oro_ouroboros.dds"
+	}
+
+	#################
+	# TRL
+	#################
+	spriteType = {
+		name = "GFX_event_TRL_mariposa_reborn"
+		texturefile = "gfx/event_pictures/event_trl_mariposa_reborn.dds"
+	}
+	#################
+	# TTM
+	#################
+	spriteType = {
+		name = "GFX_event_TTM_nursery_helper"
+		texturefile = "gfx/event_pictures/event_TTM_nursery_helper.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TTM_repository"
+		texturefile = "gfx/event_pictures/event_TTM_repository.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TTM_lanius_meets_diana_conqueror"
+		texturefile = "gfx/event_pictures/event_TTM_lanius_meets_diana_conqueror.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TTM_lanius_meets_diana_humble"
+		texturefile = "gfx/event_pictures/event_TTM_lanius_meets_diana_humble.dds"
+	}
+	#################
+	# TVT
+	#################
+	spriteType = {
+		name = "GFX_event_TVT_android"
+		texturefile = "gfx/event_pictures/event_tvt_android.dds"
+	}
+	#################
+	# BRK
+	#################
+	spriteType = {
+		name = "GFX_event_BRK_snowmobile_troops"
+		texturefile = "gfx/event_pictures/event_brk_snowmobile_troops.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_wasteland_boat_militia"
+		texturefile = "gfx/event_pictures/event_brk_wasteland_boat_militia.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_shipwreck"
+		texturefile = "gfx/event_pictures/event_brk_shipwreck.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_raider_port"
+		texturefile = "gfx/event_pictures/event_brk_raider_port.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_raider1"
+		texturefile = "gfx/event_pictures/event_brk_raider1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_raider2"
+		texturefile = "gfx/event_pictures/event_brk_raider2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_raider3"
+		texturefile = "gfx/event_pictures/event_brk_raider3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_raider4"
+		texturefile = "gfx/event_pictures/event_brk_raider4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_village_raid"
+		texturefile = "gfx/event_pictures/event_brk_village_raid.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_cargo_ship_port"
+		texturefile = "gfx/event_pictures/event_brk_cargo_ship_port.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_ship_shacks1"
+		texturefile = "gfx/event_pictures/event_brk_ship_shacks1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_ship_shacks2"
+		texturefile = "gfx/event_pictures/event_brk_ship_shacks2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_ship_shacks3"
+		texturefile = "gfx/event_pictures/event_brk_ship_shacks3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_graven"
+		texturefile = "gfx/event_pictures/event_brk_graven.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRK_ragnar"
+		texturefile = "gfx/event_pictures/event_brk_ragnar.dds"
+	}
+
+	#################
+	# WBH
+	#################
+	spriteType = {
+		name = "GFX_event_WBH_immortal"
+		texturefile = "gfx/event_pictures/event_wbh_immortal.dds"
+	}
+	spriteType = {
+		name = "GFX_event_WBH_invitation"
+		texturefile = "gfx/event_pictures/event_wbh_invitation.dds"
+	}
+	spriteType = {
+		name = "GFX_event_WBH_alaska_expedition"
+		texturefile = "gfx/event_pictures/event_wbh_alaska_expedition.dds"
+	}
+	spriteType = {
+		name = "GFX_event_WBH_alaska_expedition_pods"
+		texturefile = "gfx/event_pictures/event_wbh_alaska_expedition_pods.dds"
+	}
+
+	#################
+	# HEA
+	#################
+	spriteType = {
+		name = "GFX_event_HEA_church"
+		texturefile = "gfx/event_pictures/event_hea_church.dds"
+	}
+	spriteType = {
+		name = "GFX_event_HEA_crucifixion"
+		texturefile = "gfx/event_pictures/event_hea_crucifixion.dds"
+	}
+	spriteType = {
+		name = "GFX_event_HEA_crusade"
+		texturefile = "gfx/event_pictures/event_hea_crusade.dds"
+	}
+	spriteType = {
+		name = "GFX_event_HEA_bishop1"
+		texturefile = "gfx/event_pictures/event_hea_bishop1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_HEA_bishop2"
+		texturefile = "gfx/event_pictures/event_hea_bishop2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_HEA_shadowy_cabal"
+		texturefile = "gfx/event_pictures/event_hea_shadowy_cabal.dds"
+	}
+
+	#################
+	# KHA
+	#################
+	spriteType = {
+		name = "GFX_event_KHA_vault_22_outside"
+		texturefile = "gfx/event_pictures/event_kha_vault_22_outside.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_vault_22_atrium"
+		texturefile = "gfx/event_pictures/event_kha_vault_22_atrium.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_spore_carriers"
+		texturefile = "gfx/event_pictures/event_kha_spore_carriers.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_vault_22_sign"
+		texturefile = "gfx/event_pictures/event_kha_vault_22_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_khans_sign"
+		texturefile = "gfx/event_pictures/event_kha_khans_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_papa_vs_regis"
+		texturefile = "gfx/event_pictures/event_kha_papa_vs_regis.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_bitter_springs_massacre"
+		texturefile = "gfx/event_pictures/event_kha_bitter_springs_massacre.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_followers_of_the_apocalypse"
+		texturefile = "gfx/event_pictures/event_kha_followers_of_the_apocalypse.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_new_vegas_exodus"
+		texturefile = "gfx/event_pictures/event_kha_new_vegas_exodus.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_high_chapel"
+		texturefile = "gfx/event_pictures/event_kha_high_chapel.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_amgalan_event"
+		texturefile = "gfx/event_pictures/kha_amgalan_event.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_esen_1_event"
+		texturefile = "gfx/event_pictures/kha_esen_1_event.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_edgy_sister"
+		texturefile = "gfx/event_pictures/kha_edgy_sister.dds"
+	}
+	spriteType = {
+		name = "GFX_event_KHA_papa_helmet"
+		texturefile = "gfx/event_pictures/event_kha_papa_helmet.dds"
+	}
+	#################
+	# Legion
+	#################
+	spriteType = {
+		name = "GFX_event_legion_scouts"
+		texturefile = "gfx/event_pictures/event_legion_scouts.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ncr_won"
+		texturefile = "gfx/event_pictures/event_ncr_won.dds"
+	}
+	spriteType = {
+		name = "GFX_event_nipton_massacre"
+		texturefile = "gfx/event_pictures/event_nipton_massacre.dds"
+	}
+
+
+
+
+
+	#################
+	# RRG
+	#################
+	spriteType = {
+		name = "GFX_event_rrg_election"
+		texturefile = "gfx/event_pictures/event_rrg_election.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_legion_old"
+		texturefile = "gfx/event_pictures/event_rrg_legion_old.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_ruins"
+		texturefile = "gfx/event_pictures/event_rrg_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_raiders"
+		texturefile = "gfx/event_pictures/event_rrg_raiders.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_bridge"
+		texturefile = "gfx/event_pictures/event_rrg_bridge.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_town"
+		texturefile = "gfx/event_pictures/event_rrg_town.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_desert"
+		texturefile = "gfx/event_pictures/event_rrg_desert.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_ranch_1"
+		texturefile = "gfx/event_pictures/event_rrg_ranch_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_ranch_2"
+		texturefile = "gfx/event_pictures/event_rrg_ranch_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mex_flag_2"
+		texturefile = "gfx/event_pictures/event_mex_flag_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mex_flag_1"
+		texturefile = "gfx/event_pictures/event_mex_flag_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_santa_anna"
+		texturefile = "gfx/event_pictures/event_santa_anna.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_adelitas"
+		texturefile = "gfx/event_pictures/event_rrg_adelitas.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_propaganda_poster"
+		texturefile = "gfx/event_pictures/event_rrg_propaganda_poster.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rrg_presidential_guard"
+		texturefile = "gfx/event_pictures/event_rrg_presidential_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexican_women_fighters"
+		texturefile = "gfx/event_pictures/event_mexican_women_fighters.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_vault_city"
+		texturefile = "gfx/event_pictures/event_vault_city.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vault_city_council_building"
+		texturefile = "gfx/event_pictures/event_vault_city_council_building.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vault_city_squeak"
+		texturefile = "gfx/event_pictures/event_vault_city_squeak.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ultracite_vein"
+		texturefile = "gfx/event_pictures/event_ultracite_vein.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_rrg_women_resistance"
+		texturefile = "gfx/event_pictures/event_rrg_women_resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexican_enclave"
+		texturefile = "gfx/event_pictures/event_mexican_enclave.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rob_doki_doki"
+		texturefile = "gfx/event_pictures/event_rob_doki_doki.dds"
+	}
+	spriteType = {
+		name = "GFX_event_robot_roboscorpion_scorpitron_wasteland"
+		texturefile = "gfx/event_pictures/event_robot_roboscorpion_scorpitron_wasteland.dds"
+	}
+	spriteType = {
+		name = "GFX_event_robots_3"
+		texturefile = "gfx/event_pictures/event_robots_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_robots_2"
+		texturefile = "gfx/event_pictures/event_robots_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_robots_1"
+		texturefile = "gfx/event_pictures/event_robots_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_drugs"
+		texturefile = "gfx/event_pictures/event_enc_drugs.dds"
+	}
+	spriteType = {
+		name = "GFX_event_free_press"
+		texturefile = "gfx/event_pictures/event_free_press.dds"
+	}
+	spriteType = {
+		name = "GFX_event_slavery"
+		texturefile = "gfx/event_pictures/event_slavery.dds"
+	}
+	spriteType = {
+		name = "GFX_event_eyebot"
+		texturefile = "gfx/event_pictures/event_eyebot.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_the_silo"
+		texturefile = "gfx/event_pictures/event_enc_the_silo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_emotion_happy"
+		texturefile = "gfx/event_pictures/event_emotion_happy.dds"
+	}
+	spriteType = {
+		name = "GFX_event_brain"
+		texturefile = "gfx/event_pictures/event_brain.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ghoul"
+		texturefile = "gfx/event_pictures/event_ghoul.dds"
+	}
+	spriteType = {
+		name = "GFX_event_raul"
+		texturefile = "gfx/event_pictures/event_raul.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_event_mecha_aztec_calendar"
+		texturefile = "gfx/event_pictures/event_mecha_aztec_calendar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexican_party"
+		texturefile = "gfx/event_pictures/event_drugs.dds"
+	}
+	spriteType = {
+		name = "GFX_event_PET_tribals"
+		texturefile = "gfx/event_pictures/event_pet_tribals.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexico_city_ruins"
+		texturefile = "gfx/event_pictures/event_mexico_city_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mayan_temple"
+		texturefile = "gfx/event_pictures/event_mayan_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexico_coffee_fields"
+		texturefile = "gfx/event_pictures/event_mexico_coffee_fields.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_event_ATE_xochicalco"
+		texturefile = "gfx/event_pictures/event_ate_xochicalco.dds"
+	}
+	spriteType = {
+		name = "GFX_event_coffee_can"
+		texturefile = "gfx/event_pictures/event_coffee_can.dds"
+	}
+	spriteType = {
+		name = "GFX_event_generic_mutant"
+		texturefile = "gfx/event_pictures/event_generic_mutant.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ulysses"
+		texturefile = "gfx/event_pictures/event_ulysses.dds"
+	}
+	spriteType = {
+		name = "GFX_event_car_3"
+		texturefile = "gfx/event_pictures/event_car_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_car_2"
+		texturefile = "gfx/event_pictures/event_car_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_car_1"
+		texturefile = "gfx/event_pictures/event_car_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_garage_picture"
+		texturefile = "gfx/event_pictures/event_garage_picture.dds"
+	}
+	#################
+	# UTO
+	#################
+	spriteType = {
+		name = "GFX_event_UTO_black_mountain"
+		texturefile = "gfx/event_pictures/event_uto_black_mountain.dds"
+	}
+	spriteType = {
+		name = "GFX_event_UTO_tourism"
+		texturefile = "gfx/event_pictures/event_uto_tourism.dds"
+	}
+
+	################
+	# Gente
+	#################
+	spriteType = {
+		name = "GFX_event_gente_de_sol_villa"
+		texturefile = "gfx/event_pictures/event_gente_de_sol_villa.dds"
+	}
+	#################
+	# NAV
+	#################
+	spriteType = {
+		name = "GFX_event_navajo_1"
+		texturefile = "gfx/event_pictures/event_navajo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_navajo_2"
+		texturefile = "gfx/event_pictures/event_navajo_2.dds"
+	}
+	#################
+	# NEWfixe
+	#################
+	spriteType = {
+		name = "GFX_event_NEW_thradds_coup"
+		texturefile = "gfx/event_pictures/event_new_thradds_coup.dds"
+	}
+	spriteType = {
+		name = "GFX_event_NEW_thradds_coup_thabitha"
+		texturefile = "gfx/event_pictures/event_new_thradds_coup_thabitha.dds"
+	}
+	spriteType = {
+		name = "GFX_event_new_reno2"
+		texturefile = "gfx/event_pictures/event_new_reno2.tga"
+	}
+	spriteType = {
+		name = "GFX_event_new_reno_3"
+		texturefile = "gfx/event_pictures/event_new_reno_3.tga"
+	}
+	spriteType = {
+		name = "GFX_event_den3"
+		texturefile = "gfx/event_pictures/evetn_den.tga"
+	}
+	spriteType = {
+		name = "GFX_event_new_reno"
+		texturefile = "gfx/event_pictures/event_new_reno.tga"
+	}
+	spriteType = {
+		name = "GFX_event_new_reno_sign"
+		texturefile = "gfx/event_pictures/event_new_reno_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_event_new_van_graffs"
+		texturefile = "gfx/event_pictures/event_new_van_graffs.dds"
+	}
+	#################
+	# ITZ
+	#################
+	spriteType = {
+		name = "GFX_event_ITZ_ancient_teleporter"
+		texturefile = "gfx/event_pictures/event_itz_ancient_teleporter.dds"
+	}
+
+	#################
+	# BRA
+	#################
+	spriteType = {
+		name = "GFX_event_BRA_moon_and_fireworks"
+		texturefile = "gfx/event_pictures/event_bra_moon_and_fireworks.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRA_navy_battle"
+		texturefile = "gfx/event_pictures/event_bra_navy_battle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BRA_royal_ball"
+		texturefile = "gfx/event_pictures/event_bra_royal_ball.dds"
+	}
+
+	#################
+	# ARB
+	#################
+	spriteType = {
+		name = "GFX_event_ARB_obrien_ponders"
+		texturefile = "gfx/event_pictures/event_arb_obrien_ponders.dds"
+	}
+
+	#################
+	# CLK
+	#################
+	spriteType = {
+		name = "GFX_event_clk_tardis"
+		texturefile = "gfx/event_pictures/event_clk_tardis.dds"
+	}
+	spriteType = {
+		name = "GFX_event_clk_tardis"
+		texturefile = "gfx/event_pictures/event_clk_tardis.dds"
+	}
+	spriteType = {
+		name = "GFX_event_clk_clock"
+		texturefile = "gfx/event_pictures/event_clk_vault_clock.dds"
+	}
+	spriteType = {
+		name = "GFX_event_crashed_station"
+		texturefile = "gfx/event_pictures/event_crashed_station.dds"
+	}
+	spriteType = {
+		name = "GFX_event_clk_vault_office"
+		texturefile = "gfx/event_pictures/event_clk_vault_office.dds"
+	}
+	spriteType = {
+		name = "GFX_event_clk_hellscape"
+		texturefile = "gfx/event_pictures/event_clk_hellscape.dds"
+	}
+	spriteType = {
+		name = "GFX_event_clk_machine"
+		texturefile = "gfx/event_pictures/event_clk_machine.dds"
+	}
+
+	#################
+	#caps & slaves
+	#################
+	spriteType = {
+		name = "GFX_event_chem_addiction"
+		texturefile = "gfx/event_pictures/event_caps_slaves_chemaddiction.dds"
+	}
+	spriteType = {
+		name = "GFX_event_caps_stab"
+		texturefile = "gfx/event_pictures/event_caps_slaves_mercs_backstab.dds"
+	}
+	spriteType = {
+		name = "GFX_event_trader"
+		texturefile = "gfx/event_pictures/event_caps_slaves_trader1.dds"
+	}
+
+
+	#################
+	# TLA
+	#################
+	spriteType = {
+		name = "GFX_event_tla_memory"
+		texturefile = "gfx/event_pictures/event_tla_memory.dds"
+	}
+	spriteType = {
+		name = "GFX_event_tla_proud"
+		texturefile = "gfx/event_pictures/tla_event_proud.dds"
+	}
+	spriteType = {
+		name = "GFX_event_tla_demise"
+		texturefile = "gfx/event_pictures/event_tla_demise.dds"
+	}
+	#################
+	# LNS
+	#################
+	spriteType = {
+		name = "GFX_event_lns_lone_star"
+		texturefile = "gfx/event_pictures/event_lns_lone_star.dds"
+	}
+	#################
+	# LUL
+	#################
+	spriteType = {
+		name = "GFX_event_lul_lunar_legion"
+		texturefile = "gfx/event_pictures/event_lul_lunar_legion.dds"
+	}
+	#################
+	# CMC
+	#################
+	spriteType = {
+		name = "GFX_event_cmc_gambling"
+		texturefile = "gfx/event_pictures/event_jackpot.dds"
+	}
+	spriteType = {
+		name = "GFX_event_cmc_babby"
+		texturefile = "gfx/event_pictures/event_cmc_howisbabbyformed.dds"
+	}
+	spriteType = {
+		name = "GFX_event_cmc_tub"
+		texturefile = "gfx/event_pictures/event_cmc_tub.dds"
+	}
+	#################
+	# CHR
+	#################
+	spriteType = {
+		name = "GFX_event_event_chr_uktenas_gaze"
+		texturefile = "gfx/event_pictures/event_chr_uktenas_gaze.dds"
+	}
+
+	#################
+	# First People
+	#################
+	spriteType = {
+		name = "GFX_event_fp_unknown_woman"
+		texturefile = "gfx/event_pictures/event_fp_unknown_woman.dds"
+	}
+	#################
+	# ZAP
+	#################
+	spriteType = {
+		name = "GFX_event_zapata_propaganda"
+		texturefile = "gfx/event_pictures/event_zapata_propaganda.dds"
+	}
+
+	#################
+	# Downfall
+	#################
+	spriteType = {
+		name = "GFX_event_fall_new_canaan"
+		texturefile = "gfx/event_pictures/fall_new_canaan.dds"
+	}
+	spriteType = {
+		name = "GFX_event_fall_vault_city"
+		texturefile = "gfx/event_pictures/fall_vault_city.dds"
+	}
+	spriteType = {
+		name = "GFX_event_fall_vault_city"
+		texturefile = "gfx/event_pictures/fall_vault_city.dds"
+	}
+	spriteType = {
+		name = "GFX_fall_shady_sands"
+		texturefile = "gfx/event_pictures/fall_shady_sands.dds"
+	}
+
+	#################
+	# ACH
+	#################
+	spriteType = {
+		name = "GFX_ach_hood_decision_menu"
+		texturefile = "gfx/interface/decisions/decision_ach_fort_hood_menu.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_entrance"
+		texturefile = "gfx/event_pictures/event_ach_fort_hood_entrance.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_progress"
+		texturefile = "gfx/event_pictures/event_ach_fort_hood_progress.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_turrets"
+		texturefile = "gfx/event_pictures/event_ach_fort_hood_turrets.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_security_fields"
+		texturefile = "gfx/event_pictures/event_ach_fort_hood_security_fields.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_robot_corridor"
+		texturefile = "gfx/event_pictures/event_ach_fort_hood_robot_corridor.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ach_hood_final_success"
+		texturefile = "gfx/event_pictures/ach_fort_hood_final_success.dds"
+	}
+	spriteType = {
+		name = "GFX_event_tex_dont_mess"
+		texturefile = "gfx/event_pictures/event_tex_dont_mess.dds"
+	}
+	spriteType = {
+		name = "GFX_event_baja_flag"
+		texturefile = "gfx/event_pictures/event_baja_flag.dds"
+	}
+
+	####Free Fighters
+	spriteType = {
+		name = "GFX_event_ffi_ring"
+		texturefile = "gfx/event_pictures/event_ffi_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_el_santo"
+		texturefile = "gfx/event_pictures/event_ffi_el_santo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_blue_demon"
+		texturefile = "gfx/event_pictures/event_ffi_blue_demon.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_mii_mascaras"
+		texturefile = "gfx/event_pictures/event_ffi_mii_mascaras.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_ring_3"
+		texturefile = "gfx/event_pictures/event_ffi_ring_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_ring_2"
+		texturefile = "gfx/event_pictures/event_ffi_ring_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ffi_triarchy"
+		texturefile = "gfx/event_pictures/ffi_triarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_suneater"
+		texturefile = "gfx/event_pictures/event_ffi_suneater.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_cross"
+		texturefile = "gfx/event_pictures/event_ffi_cross.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_el_santo_demon"
+		texturefile = "gfx/event_pictures/event_ffi_el_santo_demon.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_demon_santo"
+		texturefile = "gfx/event_pictures/event_ffi_demon_santo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_demon_mil"
+		texturefile = "gfx/event_pictures/event_ffi_demon_mil.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_santo_mil"
+		texturefile = "gfx/event_pictures/event_ffi_santo_mil.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ffi_chokeslam"
+		texturefile = "gfx/event_pictures/event_ffi_chokeslam.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_event_animated_sha_secret"
+		texturefile = "gfx/event_pictures/animated/event_animated_sha_secret.dds"
+		noOfFrames = 19
+		animation_rate_fps = 60
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_animated_meeting_of_titans"
+		texturefile = "gfx/event_pictures/animated/event_animated_meeting_of_titans.dds"
+		noOfFrames = 32
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_animated_a_strange_holotape"
+		texturefile = "gfx/event_pictures/animated/event_animated_a_strange_holotape.dds"
+		noOfFrames = 30
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_animated_oh_no"
+		texturefile = "gfx/event_pictures/animated/event_animated_oh_no.dds"
+		noOfFrames = 11
+		animation_rate_fps = 16
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_animated_bgr_relcomsrevenge"
+		texturefile = "gfx/event_pictures/animated/event_animated_bgr_relcomsrevenge.dds"
+		noOfFrames = 2
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+	}
+
+	#################
+	# Slags
+	#################
+
+	spriteType = {
+		name = "GFX_event_sla_ghostfarm"
+		texturefile = "gfx/event_pictures/event_sla_ghostfarm.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sla_nighttime"
+		texturefile = "gfx/event_pictures/event_sla_nighttime.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sla_modoc"
+		texturefile = "gfx/event_pictures/event_sla_modoc.dds"
+	}
+
+	#################
+	# Vipers
+	#################
+
+	spriteType = {
+		name = "GFX_event_vipers_snek"
+		texturefile = "gfx/event_pictures/snek.dds"
+	}
+    #################
+	# NORdikon
+	#################
+	spriteType = {
+		name = "GFX_event_nor_diana"
+		texturefile = "gfx/event_pictures/event_nor_diana.dds"
+	}
+	spriteType = {
+		name = "GFX_event_nor_tarnished_canadian_flag"
+		texturefile = "gfx/event_pictures/event_nor_tarnished_canadian_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_nor_mobius"
+		texturefile = "gfx/event_pictures/event_nor_mobius.dds"
+	}
+
+	#################
+	# Vipers
+	#################
+
+	spriteType = {
+		name = "GFX_event_vipers_snek"
+		texturefile = "gfx/event_pictures/snek.dds"
+	}
+
+
+	#################
+	# Vipers
+	#################
+
+	spriteType = {
+		name = "GFX_event_vipers_snek"
+		texturefile = "gfx/event_pictures/snek.dds"
+	}
+
+
+	#################
+	# Vipers
+	#################
+
+	spriteType = {
+		name = "GFX_event_nor_horror"
+		texturefile = "gfx/event_pictures/event_nor_horror.dds"
+	}
+    spriteType = {
+		name = "GFX_event_nor_screen"
+		texturefile = "gfx/event_pictures/event_nor_screen.dds"
+	}
+
+
+	#################
+	# Wild Wasteland
+	#################
+
+	spriteType = {
+		name = "GFX_event_com_tnt"
+		texturefile = "gfx/event_pictures/event_com_tnt.dds"
+	}
+
+	################
+	# Mexico Flavor
+	################
+
+	spriteType = {
+		name = "GFX_event_mexico_flavor_ship"
+		texturefile = "gfx/event_pictures/event_mex_flavor_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mexico_flavor_generalissimo"
+		texturefile = "gfx/event_pictures/event_mex_generalissimo_day.dds"
+	}
+	#################
+	# Thanksgiving
+	#################
+
+	spriteType = {
+		name = "GFX_event_thanksgiving"
+		texturefile = "gfx/event_pictures/event_thanksgiving.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_turkeyclaw"
+		texturefile = "gfx/event_pictures/event_turkeyclaw.dds"
+	}
+	spriteType = {
+		name = "GFX_event_thanksgiving_dinner"
+		texturefile = "gfx/event_pictures/event_thanksgiving_dinner.dds"
+	}
+	################
+	# Paullus
+	################
+	spriteType = {
+		name = "GFX_event_pls_default"
+		texturefile = "gfx/event_pictures/pls_default.dds"
+	}
+	spriteType = {
+		name = "GFX_event_gaius_default"
+		texturefile = "gfx/event_pictures/gaius_default.dds"
+	}
+	spriteType = {
+		name = "GFX_event_pls_event_coffee_ad"
+		texturefile = "gfx/event_pictures/pls_event_coffee_ad.dds"
+	}
+	spriteType = {
+		name = "GFX_event_pls_event_angry_caesar"
+		texturefile = "gfx/event_pictures/pls_angry_caesar.dds"
+	}
+	#################
+	# Langenburg
+	#################
+	spriteType = {
+		name = "GFX_event_vintage_letter"
+		texturefile = "gfx/event_pictures/vintage_letter.dds"
+	}
+	spriteType = {
+		name = "GFX_event_midnightrider"
+		texturefile = "gfx/event_pictures/midnightrider.dds"
+	}
+	spriteType = {
+		name = "GFX_event_battle_yorkton"
+		texturefile = "gfx/event_pictures/dln_battle_yorkton.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_charge"
+		texturefile = "gfx/event_pictures/dln_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_regina"
+		texturefile = "gfx/event_pictures/dln_regina.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_happy"
+		texturefile = "gfx/event_pictures/dln_happy.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_time"
+		texturefile = "gfx/event_pictures/dln_time.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_will"
+		texturefile = "gfx/event_pictures/dln_will.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_judge"
+		texturefile = "gfx/event_pictures/dln_judge.dds"
+	}
+	spriteType = {
+		name = "GFX_event_dln_bedroom"
+		texturefile = "gfx/event_pictures/dln_bedroom.dds"
+	}
+	#################
+	# Loid
+	#################
+	spriteType = {
+		name = "GFX_event_loi_submarine"
+		texturefile = "gfx/event_pictures/LOI_sub.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_tank_snow"
+		texturefile = "gfx/event_pictures/LOI_tank_snow.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_boat"
+		texturefile = "gfx/event_pictures/LOI_boat.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_station"
+		texturefile = "gfx/event_pictures/LOI_station.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_satelite"
+		texturefile = "gfx/event_pictures/LOI_satelite.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_pick_your_poison"
+		texturefile = "gfx/event_pictures/loi_pick_your_poison.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_radio"
+		texturefile = "gfx/event_pictures/loi_radio.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_ussr_flag"
+		texturefile = "gfx/event_pictures/loi_ussr_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_tank"
+		texturefile = "gfx/event_pictures/loi_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_arty"
+		texturefile = "gfx/event_pictures/loi_arty.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_NSB_submarine"
+		texturefile = "gfx/event_pictures/loi_NSB_submarine.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_bombers"
+		texturefile = "gfx/event_pictures/loi_bombers.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_train"
+		texturefile = "gfx/event_pictures/loi_train.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_stockpile"
+		texturefile = "gfx/event_pictures/loi_stockpile.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_fascism"
+		texturefile = "gfx/event_pictures/loi_fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_paper"
+		texturefile = "gfx/event_pictures/loi_paper.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_snake"
+		texturefile = "gfx/event_pictures/loi_snake.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_crowd"
+		texturefile = "gfx/event_pictures/loi_crowd.dds"
+	}
+	spriteType = {
+		name = "GFX_event_loi_NSB_stalin"
+		texturefile = "gfx/event_pictures/loi_NSB_stalin.dds"
+	}
+	################
+	# Rockies
+	#################
+
+	spriteType = {
+		name = "GFX_event_bunker_alpha"
+		texturefile = "gfx/event_pictures/event_bunker_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_event_brotherhood_blimps"
+		texturefile = "gfx/event_pictures/event_brotherhood_blimps.dds"
+	}
+	spriteType = {
+		name = "GFX_event_brotherhood_training"
+		texturefile = "gfx/event_pictures/event_brotherhood_training.dds"
+	}
+	spriteType = {
+		name = "GFX_event_midwestern_funeral"
+		texturefile = "gfx/event_pictures/event_midwestern_funeral.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ENC_camp_navarro"
+		texturefile = "gfx/event_pictures/event_ENC_camp_navarro.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enclave_coffee"
+		texturefile = "gfx/event_pictures/enclave_coffee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_enclave_settlement"
+		texturefile = "gfx/event_pictures/event_enclave_settlement.dds"
+	}
+	spriteType = {
+		name = "GFX_event_erb_urban_patrol"
+		texturefile = "gfx/event_pictures/event_erb_urban_patrol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_sioux_art"
+		texturefile = "gfx/event_pictures/event_sioux_art.dds"
+	}
+	#MCA
+	spriteType = {
+		name = "GFX_event_capitol_ruins"
+		texturefile = "gfx/event_pictures/event_capitol_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_macarthur_helipad"
+		texturefile = "gfx/event_pictures/event_macarthur_helipad.dds"
+	}
+	spriteType = {
+		name = "GFX_event_fruit_bowl"
+		texturefile = "gfx/event_pictures/event_fruit_bowl.dds"
+	}
+	spriteType = {
+		name = "GFX_event_bizarre"
+		texturefile = "gfx/event_pictures/event_bizarre.dds"
+	}
+	spriteType = {
+		name = "GFX_event_steeltown"
+		texturefile = "gfx/event_pictures/event_steeltown.dds"
+	}
+	spriteType = {
+		name = "GFX_event_morningstar"
+		texturefile = "gfx/event_pictures/event_morningstar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_henry_returns"
+		texturefile = "gfx/event_pictures/enc_henry_returns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_enclave_science"
+		texturefile = "gfx/event_pictures/event_enclave_science.dds"
+	}
+	spriteType = {
+		name = "GFX_event_event_enclave_room"
+		texturefile = "gfx/event_pictures/event_enclave_room.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enclave_ominous_red"
+		texturefile = "gfx/event_pictures/event_enclave_ominous_red.dds"
+	}
+	spriteType = {
+		name = "GFX_event_erb_vertibird_crash_snow"
+		texturefile = "gfx/event_pictures/event_erb_vertibird_crash_snow.dds"
+	}
+	spriteType = {
+		name = "GFX_event_athena"
+		texturefile = "gfx/event_pictures/event_athena.dds"
+	}
+	spriteType = {
+		name = "GFX_event_angry_secretary"
+		texturefile = "gfx/event_pictures/angry_secretary.dds"
+	}
+	spriteType = {
+		name = "GFX_event_raceway"
+		texturefile = "gfx/event_pictures/event_raceway.dds"
+	}
+	spriteType = {
+		name = "GFX_event_wasteland_arena"
+		texturefile = "gfx/event_pictures/event_wasteland_arena.dds"
+	}
+	spriteType = {
+		name = "GFX_event_abandoned_shuttle"
+		texturefile = "gfx/event_pictures/event_abandoned_shuttle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_glow"
+		texturefile = "gfx/event_pictures/event_glow.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_psi_chicago_diplomacy"
+		texturefile = "gfx/event_pictures/event_psi_chicago_diplomacy.dds"
+		noOfFrames = 18
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+	}
+	spriteType = {
+		name = "GFX_train_works"
+		texturefile = "gfx/event_pictures/event_train_works.dds"
+	}
+	spriteType = {
+		name = "GFX_event_always_fight_for_liberty"
+		texturefile = "gfx/event_pictures/event_always_fight_for_liberty.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vertibird_opening"
+		texturefile = "gfx/event_pictures/event_vertibird_opening.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_wintry_mines"
+		texturefile = "gfx/event_pictures/event_enc_wintry_mines.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enclave_lab"
+		texturefile = "gfx/event_pictures/event_enclave_lab.dds"
+	}
+	spriteType = {
+		name = "GFX_event_chicago"
+		texturefile = "gfx/event_pictures/event_chicago.dds"
+	}
+	spriteType = {
+		name = "GFX_event_interrogation"
+		texturefile = "gfx/event_pictures/event_interrogation.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ENC_cloning_success"
+		texturefile = "gfx/event_pictures/event_ENC_cloning_success.dds"
+	}
+	spriteType = {
+		name = "GFX_event_wanamingos"
+		texturefile = "gfx/event_pictures/event_wanamingos.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_seattle"
+		texturefile = "gfx/event_pictures/event_enc_seattle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_lakota_shirt"
+		texturefile = "gfx/event_pictures/event_lakota_shirt.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ENC_dark"
+		texturefile = "gfx/event_pictures/event_ENC_dark.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ENC_assault_team"
+		texturefile = "gfx/event_pictures/event_ENC_assault_team.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_vertibird_dropoff"
+		texturefile = "gfx/event_pictures/event_enc_vertibird_dropoff.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_single_soldier"
+		texturefile = "gfx/event_pictures/event_enc_single_soldier.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_urban_patrol"
+		texturefile = "gfx/event_pictures/event_enc_urban_patrol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_plasma_rifle"
+		texturefile = "gfx/event_pictures/event_enc_plasma_rifle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_ncr"
+		texturefile = "gfx/event_pictures/event_enc_ncr.dds"
+	}
+	spriteType = {
+		name = "GFX_event_nature_nice"
+		texturefile = "gfx/event_pictures/event_nature_nice.tga"
+	}
+	spriteType = {
+		name = "GFX_event_enc_washington_monument"
+		texturefile = "gfx/event_pictures/event_enc_washington_monument.dds"
+	}
+
+	################
+	# Commonwealth Remnant
+	#################
+	spriteType = {
+		name = "GFX_event_com_prebomb"
+		texturefile = "gfx/event_pictures/event_com_prebomb.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_southern_crisis"
+		texturefile = "gfx/event_pictures/event_com_southern_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_texas_emergency"
+		texturefile = "gfx/event_pictures/event_com_texas_emergency.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_alamo"
+		texturefile = "gfx/event_pictures/commonwealth/com_alamo.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_camp"
+		texturefile = "gfx/event_pictures/commonwealth/com_camp.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_desert_patrol"
+		texturefile = "gfx/event_pictures/commonwealth/com_desert_patrol.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_frozen_seattle"
+		texturefile = "gfx/event_pictures/commonwealth/com_frozen_seattle.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_mexico_burning"
+		texturefile = "gfx/event_pictures/commonwealth/com_mexico_burning.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_mexico_burning2"
+		texturefile = "gfx/event_pictures/commonwealth/com_mexico_burning2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_mexico_burning3"
+		texturefile = "gfx/event_pictures/commonwealth/com_mexico_burning3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_parade_ruins"
+		texturefile = "gfx/event_pictures/commonwealth/com_parade_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_prison"
+		texturefile = "gfx/event_pictures/commonwealth/com_prison.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_reconstruction_road"
+		texturefile = "gfx/event_pictures/commonwealth/com_reconstruction_road.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_reconstruction1"
+		texturefile = "gfx/event_pictures/commonwealth/com_reconstruction1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_riot_control_1"
+		texturefile = "gfx/event_pictures/commonwealth/com_riot_control_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_riot_control_2"
+		texturefile = "gfx/event_pictures/commonwealth/com_riot_control_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_ruins_flag"
+		texturefile = "gfx/event_pictures/commonwealth/com_ruins_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_shreveport_soviet"
+		texturefile = "gfx/event_pictures/commonwealth/com_shreveport_soviet.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_soldiers_ruins"
+		texturefile = "gfx/event_pictures/commonwealth/com_soldiers_ruins.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_soldiers_ruins2"
+		texturefile = "gfx/event_pictures/commonwealth/com_soldiers_ruins2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_rio_grande_election"
+		texturefile = "gfx/event_pictures/commonwealth/com_rio_grande_election.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_texas_election"
+		texturefile = "gfx/event_pictures/commonwealth/com_texas_election.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_northern_election"
+		texturefile = "gfx/event_pictures/commonwealth/com_northern_election.dds"
+	}
+	### Montana
+	spriteType = {
+		name = "GFX_event_mnc_shadowed_paladin"
+		texturefile = "gfx/event_pictures/event_mnc_shadowed_paladin.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_tribal_guides"
+		texturefile = "gfx/event_pictures/event_mnc_tribal_guides.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_war_in_montana"
+		texturefile = "gfx/event_pictures/event_mnc_war_in_montana.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_brotherhood_detected"
+		texturefile = "gfx/event_pictures/event_mnc_brotherhood_detected.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_brotherhood_salute"
+		texturefile = "gfx/event_pictures/event_mnc_brotherhood_salute.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_honor_1"
+		texturefile = "gfx/event_pictures/event_mnc_honor_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_minerva_bracket"
+		texturefile = "gfx/event_pictures/event_mnc_minerva_bracket.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_minerva_arena"
+		texturefile = "gfx/event_pictures/event_mnc_minerva_arena.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_johanna_rehearsel"
+		texturefile = "gfx/event_pictures/event_mnc_johanna_rehearsel.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_fate_of_the_bunker"
+		texturefile = "gfx/event_pictures/event_mnc_fate_of_the_bunker.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_patrocolus_1"
+		texturefile = "gfx/event_pictures/event_mnc_patrocolus_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_honor_2"
+		texturefile = "gfx/event_pictures/event_mnc_honor_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_fields_1"
+		texturefile = "gfx/event_pictures/event_mnc_fields_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_fields_2"
+		texturefile = "gfx/event_pictures/event_mnc_fields_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_fields_3"
+		texturefile = "gfx/event_pictures/event_mnc_fields_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_fireworks"
+		texturefile = "gfx/event_pictures/event_mnc_fireworks.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_sister_tarot_desk"
+		texturefile = "gfx/event_pictures/event_mnc_sister_tarot_desk.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_sister_tarot_falling"
+		texturefile = "gfx/event_pictures/event_mnc_sister_tarot_falling.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_johanna_mural"
+		texturefile = "gfx/event_pictures/event_mnc_johanna_mural.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_johanna_choice"
+		texturefile = "gfx/event_pictures/event_mnc_johanna_choice.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_warwick_tarot"
+		texturefile = "gfx/event_pictures/event_mnc_warwick_tarot.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_johanna_tarot"
+		texturefile = "gfx/event_pictures/event_mnc_johanna_tarot.dds"
+	}
+	spriteType = {
+		name = "GFX_event_mnc_pentecoste_tarot"
+		texturefile = "gfx/event_pictures/event_mnc_pentecoste_tarot.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rushmore"
+		texturefile = "gfx/event_pictures/event_rushmore.dds"
+	}
+
+	#Swords of Hayman / Dakota Chapter
+
+	spriteType = {
+		name = "GFX_event_soh_hayman_field"
+		texturefile = "gfx/event_pictures/event_soh_hayman_field.dds"
+	}
+	spriteType = {
+		name = "GFX_event_soh_hayman_bland"
+		texturefile = "gfx/event_pictures/event_soh_hayman_bland.dds"
+	}
+	spriteType = {
+		name = "GFX_event_soh_johanna_mural"
+		texturefile = "gfx/event_pictures/event_soh_johanna_mural.dds"
+	}
+	spriteType = {
+		name = "GFX_event_soh_fenrir"
+		texturefile = "gfx/event_pictures/event_soh_fenrir.dds"
+	}
+
+	##Montana
+
+	spriteType = {
+		name = "GFX_event_montana_field"
+		texturefile = "gfx/event_pictures/event_montana_field.dds"
+	}
+	spriteType = {
+		name = "GFX_event_montana_enclave_go_home"
+		texturefile = "gfx/event_pictures/event_montana_enclave_go_home.dds"
+	}
+	spriteType = {
+		name = "GFX_event_montana_liberty_church"
+		texturefile = "gfx/event_pictures/event_montana_liberty_church.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_archie_broadcast"
+		texturefile = "gfx/event_pictures/event_bth_archie_broadcast.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_archie_broadcast_bloody"
+		texturefile = "gfx/event_pictures/event_bth_archie_broadcast_bloody.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_archie"
+		texturefile = "gfx/event_pictures/event_ruminators_archie.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_archie_and_saul"
+		texturefile = "gfx/event_pictures/event_ruminators_archie_and_saul.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_saulchie"
+		texturefile = "gfx/event_pictures/event_ruminators_saulchie.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_elizaveta"
+		texturefile = "gfx/event_pictures/event_ruminators_elizaveta.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_fireflies"
+		texturefile = "gfx/event_pictures/event_ruminators_fireflies.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_honour"
+		texturefile = "gfx/event_pictures/event_ruminators_honour.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_saul_and_elizaveta"
+		texturefile = "gfx/event_pictures/event_ruminators_saul_and_elizaveta.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_siegfra"
+		texturefile = "gfx/event_pictures/event_ruminators_siegfra.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_minerva"
+		texturefile = "gfx/event_pictures/event_ruminators_minerva.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_three"
+		texturefile = "gfx/event_pictures/event_ruminators_three.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ruminators_meeting_archie"
+		texturefile = "gfx/event_pictures/event_ruminators_meeting_archie.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_event_wyoming_icon"
+		texturefile = "gfx/event_pictures/wyoming_icon.dds"
+	}
+
+	### MANIFEST
+	spriteType = {
+		name = "GFX_event_manifest"
+		texturefile = "gfx/event_pictures/event_manifest.dds"
+	}
+	spriteType = {
+		name = "GFX_event_manifest_1"
+		texturefile = "gfx/event_pictures/event_manifest_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_manifest_2"
+		texturefile = "gfx/event_pictures/event_manifest_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_manifest_3"
+		texturefile = "gfx/event_pictures/event_manifest_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_manifest_4"
+		texturefile = "gfx/event_pictures/event_manifest_4.dds"
+	}
+	spriteType = {
+		name = "GFX_event_manifest_lab"
+		texturefile = "gfx/event_pictures/event_manifest_lab.dds"
+	}
+
+	### HAVRE
+
+	spriteType = {
+		name = "GFX_event_fo76_tricentennial_armor"
+		texturefile = "gfx/event_pictures/fo76_tricentennial_armor.dds"
+	}
+
+	### Canada
+	spriteType = {
+		name = "GFX_event_canada_annexation"
+		texturefile = "gfx/event_pictures/event_canada_annexation.dds"
+	}
+	spriteType = {
+		name = "GFX_event_canada_burning"
+		texturefile = "gfx/event_pictures/event_canada_burning.dds"
+	}
+	spriteType = {
+		name = "GFX_event_china_poster"
+		texturefile = "gfx/event_pictures/event_china_poster.dds"
+	}
+	spriteType = {
+		name = "GFX_event_enc_ghoul_fraternity"
+		texturefile = "gfx/event_pictures/event_enc_ghoul_fraternity.dds"
+	}
+	spriteType = {
+		name = "GFX_event_canada_fallout_purge"
+		texturefile = "gfx/event_pictures/canada_fallout_purge.dds"
+	}
+	spriteType = {
+		name = "GFX_event_com_sl"
+		texturefile = "gfx/event_pictures/event_com_sl.dds"
+	}
+	spriteType = {
+		name = "GFX_event_SIE_incarnationist"
+		texturefile = "gfx/event_pictures/event_SIE_incarnationist.dds"
+	}
+	spriteType = {
+		name = "GFX_event_aurora_blimp"
+		texturefile = "gfx/event_pictures/aurora_blimp.dds"
+	}
+	##Wyoming Events
+	spriteType = {
+		name = "GFX_event_alton_bourges"
+		texturefile = "gfx/event_pictures/event_alton_bourges.dds"
+	}
+	spriteType = {
+		name = "GFX_event_annette_and_zeke"
+		texturefile = "gfx/event_pictures/event_annette_and_zeke.dds"
+	}
+	spriteType = {
+		name = "GFX_event_cph_fort_city"
+		texturefile = "gfx/event_pictures/event_cph_fort_city.dds"
+	}
+	### OG Fallout Ending Slides
+
+	spriteType = {
+		name = "GFX_event_ending_slide_poseidon_bad"
+		texturefile = "gfx/event_pictures/ending_slide_poseidon_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ending_slide_poseidon_good"
+		texturefile = "gfx/event_pictures/ending_slide_poseidon_good.dds"
+	}
+	### Electorate Events
+	spriteType = {
+		name = "GFX_event_event_bloody_animal_drawing"
+		texturefile = "gfx/event_pictures/event_bloody_animal_drawing.dds"
+	}
+	### Vault 100
+	spriteType = {
+		name = "GFX_event_ROT_wishmaiden_generic"
+		texturefile = "gfx/event_pictures/ROT_wishmaiden_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_wishmaiden_lady"
+		texturefile = "gfx/event_pictures/ROT_wishmaiden_lady.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_8_ball"
+		texturefile = "gfx/event_pictures/ROT_8_ball.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_samson"
+		texturefile = "gfx/event_pictures/ROT_samson.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_jacobia_generic"
+		texturefile = "gfx/event_pictures/ROT_jacobia_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_sistermaidens"
+		texturefile = "gfx/event_pictures/ROT_sistersmaidens.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_showdown"
+		texturefile = "gfx/event_pictures/ROT_showdown.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_samson_2"
+		texturefile = "gfx/event_pictures/ROT_samson_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ROT_vault_45"
+		texturefile = "gfx/event_pictures/ROT_vault_45.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_stand"
+		texturefile = "gfx/event_pictures/TOC_warden_stand.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_flag_1"
+		texturefile = "gfx/event_pictures/TOC_warden_flag_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_flag_2"
+		texturefile = "gfx/event_pictures/TOC_warden_flag_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_army"
+		texturefile = "gfx/event_pictures/TOC_warden_army.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_breach"
+		texturefile = "gfx/event_pictures/TOC_warden_breach.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_retreat"
+		texturefile = "gfx/event_pictures/TOC_warden_retreat.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_warden_brave"
+		texturefile = "gfx/event_pictures/TOC_warden_brave.dds"
+	}
+	spriteType = {
+		name = "GFX_event_PAS_foxtrot_uniform"
+		texturefile = "gfx/event_pictures/PAS_foxtrot_uniform.dds"
+	}
+	spriteType = {
+		name = "GFX_event_TOC_ice_picks"
+		texturefile = "gfx/event_pictures/TOC_ice_picks.dds"
+	}
+	##Robot City
+	spriteType = {
+		name = "GFX_event_afunkychoice"
+		texturefile = "gfx/event_pictures/event_afunkychoice.dds"
+	}
+	spriteType = {
+		name = "GFX_event_argos_contact"
+		texturefile = "gfx/event_pictures/event_argos_contact.dds"
+	}
+	spriteType = {
+		name = "GFX_event_electricfeel"
+		texturefile = "gfx/event_pictures/event_electricfeel.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rob_1"
+		texturefile = "gfx/event_pictures/event_rob_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_rob_amy"
+		texturefile = "gfx/event_pictures/event_rob_amy.dds"
+	}
+
+	###Redding
+	spriteType = {
+		name = "GFX_event_redding_atlas"
+		texturefile = "gfx/event_pictures/event_redding_atlas.dds"
+	}
+
+	#MAXSON CHAPTER EVENT PICTURES
+	spriteType = {
+		name = "GFX_event_maxson_chapter_default"
+		texturefile = "gfx/event_pictures/MAXSON/maxson_chapter_default_event_picture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_barnaky_claws"
+		texturefile = "gfx/event_pictures/MAXSON/barnaky_claw_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_downed_airship"
+		texturefile = "gfx/event_pictures/MAXSON/downed_airship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_lanius_attack"
+		texturefile = "gfx/event_pictures/MAXSON/lanius_attack_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_lanius_truce"
+		texturefile = "gfx/event_pictures/MAXSON/lanius_truce_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_the_ancient_menace"
+		texturefile = "gfx/event_pictures/MAXSON/the_ancient_menace_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_upper_levels"
+		texturefile = "gfx/event_pictures/MAXSON/upper_levels_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_the_assault"
+		texturefile = "gfx/event_pictures/MAXSON/the_assault_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_hellion"
+		texturefile = "gfx/event_pictures/MAXSON/hellion_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_closer_to_the_truth"
+		texturefile = "gfx/event_pictures/MAXSON/closer_to_the_truth_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_the_final_stand_of_the_calculator"
+		texturefile = "gfx/event_pictures/MAXSON/the_final_stand_of_the_calculator_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_the_general"
+		texturefile = "gfx/event_pictures/MAXSON/the_general.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_the_warriors_decision"
+		texturefile = "gfx/event_pictures/MAXSON/the_warriors_decision_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_final_log"
+		texturefile = "gfx/event_pictures/MAXSON/final_log_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_boulder"
+		texturefile = "gfx/event_pictures/MAXSON/boulder_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_glowing_and_angry"
+		texturefile = "gfx/event_pictures/MAXSON/glowing_and_angry_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_camp_alpha"
+		texturefile = "gfx/event_pictures/MAXSON/camp_alpha_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_mxc_our_home_in_maxson"
+		texturefile = "gfx/event_pictures/MAXSON/our_home_in_maxson_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_mxc_our_new_home_in_denver"
+		texturefile = "gfx/event_pictures/MAXSON/our_new_home_in_denver_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_mxc_our_new_home_in_vault_0"
+		texturefile = "gfx/event_pictures/MAXSON/our_new_home_in_vault_0_event.dds"
+	}
+
+#### MTC Metis Events
+
+	spriteType = {
+		name = "GFX_event_mtc_leaders_atoine_etienne"
+		texturefile = "gfx/event_pictures/event_mtc_leaders_atoine_etienne.dds"
+	}
+#### BUM Events
+
+	spriteType = {
+		name = "GFX_event_bum_foreman_logo"
+		texturefile = "gfx/event_pictures/event_bum_foreman_logo.dds"
+	}
+
+#### jackyboygood quarentine zone
+#VER
+	spriteType = {
+		name = "GFX_event_cpf_social_commonwealth"
+		texturefile = "gfx/event_pictures/cpf_social_commonwealth.dds"
+	}
+# April Fools
+	spriteType = {
+		name = "GFX_event_ITZ_teleporter"
+		texturefile = "gfx/event_pictures/event_itz_ancient_teleporter.dds"
+	}
+	spriteType = {
+		name = "GFX_event_LAC_book"
+		texturefile = "gfx/event_pictures/event_lac_book.dds"
+	}
+	###Eden
+	spriteType = {
+		name = "GFX_event_one_remains"
+		texturefile = "gfx/event_pictures/event_one_remains.dds"
+	}
+	###TLR
+	spriteType = {
+		name = "GFX_event_TLR_election"
+		texturefile = "gfx/event_pictures/event_tlr_election.dds"
+	}
+	spriteType = {
+		name = "GFX_event_GRD_star_citadel"
+		texturefile = "gfx/event_pictures/grd_star_citadel.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_advert_1"
+		texturefile = "gfx/event_pictures/event_mdm_advert_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_advert_2"
+		texturefile = "gfx/event_pictures/event_mdm_advert_2.dds"
+	}
+	spriteType = { #From my wonderful wife Meat Girl - Iron
+		name = "GFX_event_MDM_advert_3"
+		texturefile = "gfx/event_pictures/event_mdm_advert_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_advert_3"
+		texturefile = "gfx/event_pictures/event_mdm_advert_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_generic_1"
+		texturefile = "gfx/event_pictures/event_mdm_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_generic_2"
+		texturefile = "gfx/event_pictures/event_mdm_generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_generic_3"
+		texturefile = "gfx/event_pictures/event_mdm_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_warden"
+		texturefile = "gfx/event_pictures/event_mdm_warden.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_warden_2"
+		texturefile = "gfx/event_pictures/event_mdm_warden_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_MDM_warden_3"
+		texturefile = "gfx/event_pictures/event_mdm_warden_3.dds"
+	}
+	###IRC
+	spriteType = {
+		name = "GFX_event_IRC_1"
+		texturefile = "gfx/event_pictures/event_irc_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_IRC_2"
+		texturefile = "gfx/event_pictures/event_irc_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_IRC_3"
+		texturefile = "gfx/event_pictures/event_irc_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_IRC_howling_wolf"
+		texturefile = "gfx/event_pictures/event_IRC_howling_wolf.dds"
+	}
+	spriteType = {
+		name = "GFX_event_canada_menu"
+		texturefile = "gfx/event_pictures/event_canada_menu.dds"
+	}
+	###TUB
+	spriteType = {
+		name = "GFX_event_mr_entertainment"
+		texturefile = "gfx/event_pictures/event_mr_entertainment.dds"
+	}
+	###VSH - MONKEY RULES
+	spriteType = {
+		name = "GFX_event_vsh_celebration_Mary"
+		texturefile = "gfx/event_pictures/event_vsh_celebration_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_vsh_celebration_Showtime"
+		texturefile = "gfx/event_pictures/event_vsh_celebration_1.dds"
+	}
+}

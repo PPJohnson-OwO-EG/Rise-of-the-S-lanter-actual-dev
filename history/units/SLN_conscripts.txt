@@ -1,0 +1,43 @@
+division_template = {
+	name = "S'lanter Conscripts"
+	template_counter = 19
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "The Young"
+		location = 3321
+		division_template = "S'lanter Conscripts"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "The Old"
+		location = 2730
+		division_template = "S'lanter Conscripts"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "The Weak"
+		location = 8379
+		division_template = "S'lanter Conscripts"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "The Sick"
+		location = 2715
+		division_template = "S'lanter Conscripts"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+}
+}

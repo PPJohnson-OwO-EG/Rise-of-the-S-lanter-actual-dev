@@ -1,0 +1,21 @@
+
+division_template = {
+	name = "Vault City Borns"
+	template_counter = 19
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+	division = {
+		name = "Vault City Borns"
+		location = 3321
+		division_template = "Vault City Borns"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}

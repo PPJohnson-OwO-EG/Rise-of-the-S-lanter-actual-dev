@@ -1,0 +1,42 @@
+﻿division_template = {
+	name = "Defenders of the Glow"
+	template_counter = 19
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "Battalion of Mind"
+		location = 3321
+		division_template = "Defenders of the Glow"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion of Body"
+		location = 3321
+		division_template = "Defenders of the Glow"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion of Spirit"
+		location = 3321
+		division_template = "Defenders of the Glow"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion of Earth"
+		location = 3321
+		division_template = "Defenders of the Glow"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+}

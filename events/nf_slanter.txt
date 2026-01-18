@@ -1,0 +1,362 @@
+﻿add_namespace = nf_slanter
+add_namespace = nf_sln_journey
+add_namespace = nf_sln_genocide
+add_namespace = nf_sln_top
+
+country_event = {
+	id = nf_sln_top.1
+	title = nf_sln_top.1.t
+	desc = nf_sln_top.1.d
+	picture = GFX_event_generic_factory_1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_top.1.a
+        
+	}
+}
+
+country_event = {
+	id = nf_sln_genocide.5
+	title = nf_sln_genocide.5.t
+	desc = nf_sln_genocide.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_genocide.5.a
+		add_ideas = sln_children_glow
+	}
+}
+
+
+country_event = {
+	id = nf_sln_genocide.4
+	title = nf_sln_genocide.4.t
+	desc = nf_sln_genocide.4.d
+	picture = GFX_event_victory_parade_soldiers_cph
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_genocide.4.a
+        add_ideas = sln_a_military_reborn
+	}
+}
+
+country_event = {
+	id = nf_sln_genocide.1
+	title = nf_sln_genocide.1.t
+	desc = nf_sln_genocide.1.d
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_genocide.1.a
+		add_ideas = sln_victory_against_the_vipers
+	}
+}
+
+country_event = {
+	id = nf_sln_genocide.2
+	title = nf_sln_genocide.2.t
+	desc = nf_sln_genocide.2.d
+	picture = GFX_event_reservation_trade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_genocide.2.a
+		add_ideas = sln_rapidly_growing_economy
+		remove_ideas = sln_growing_economy
+	}
+}
+
+country_event = {
+	id = nf_sln_genocide.3
+	title = nf_sln_genocide.3.t
+    desc = nf_sln_genocide.3.d
+	picture = GFX_event_generic_factory_5
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nf_sln_genocide.3.a
+		add_ideas = sln_rapidly_growing_arms_industry
+		remove_ideas = sln_growing_arms_industry
+		
+	}
+}
+	
+
+country_event = {
+	id = nf_slanter.1
+	title = nf_slanter.1.t
+	desc = nf_slanter.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.1.a
+		increase_topdweller_power = yes
+		add_ideas = sln_learning
+		custom_effect_tooltip = sln_history_choice_top
+	}
+	option = {
+		name = nf_slanter.1.b
+		increase_dendweller_power = yes
+		add_ideas = sln_hardship
+		custom_effect_tooltip = sln_history_choice_den
+	}
+}
+country_event = {
+	id = nf_slanter.2
+	title = nf_slanter.2.t
+	desc = nf_slanter.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.2.a
+		increase_topdweller_power = yes
+		add_ideas = sln_trust
+		custom_effect_tooltip = sln_history_choice_top
+	}
+	option = {
+		name = nf_slanter.2.b
+		increase_dendweller_power = yes
+		add_ideas = sln_distrust
+		custom_effect_tooltip = sln_history_choice_den
+	}
+}
+country_event = {
+	id = nf_slanter.3
+	title = nf_slanter.3.t
+	desc = nf_slanter.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.3.a
+		increase_topdweller_power = yes
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 1
+			category = electronics
+		}
+		custom_effect_tooltip = sln_history_choice_top
+	}
+	option = {
+		name = nf_slanter.3.b
+		increase_dendweller_power = yes
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 1
+			category = tool_tech
+		}
+		custom_effect_tooltip = sln_history_choice_den
+	}
+}
+country_event = {
+	id = nf_slanter.4
+	title = nf_slanter.4.t
+	desc = nf_slanter.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.4.a
+		increase_topdweller_power = yes
+		add_ideas = sln_expand
+		custom_effect_tooltip = sln_history_choice_top
+	}
+	option = {
+		name = nf_slanter.4.b
+		increase_dendweller_power = yes
+		add_ideas = sln_stay_home
+		custom_effect_tooltip = sln_history_choice_den
+	}
+}
+country_event = {
+	id = nf_slanter.5
+	title = nf_slanter.5.t
+	desc = nf_slanter.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.5.a
+		increase_topdweller_power = yes
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 200
+		}
+		custom_effect_tooltip = sln_history_choice_top
+	}
+	option = {
+		name = nf_slanter.5.b
+		increase_dendweller_power = yes
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 200
+		}
+		custom_effect_tooltip = sln_history_choice_den
+	}
+}
+
+# vision quest
+country_event = {
+	id = nf_sln_journey.1
+	title = nf_sln_journey.1.t
+	desc = nf_sln_journey.1.d
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = nf_sln_journey.2
+				days = 20
+				random_days = 10
+			}
+		}
+	}
+
+	option = {
+		name = nf_sln_journey.1.a
+	}
+}
+country_event = {
+	id = nf_sln_journey.2
+	title = nf_sln_journey.2.t
+	desc = nf_sln_journey.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_sln_journey.2.a
+		country_event = { id = nf_sln_journey.6	}
+	}
+	option = {
+		trigger = {
+			has_equipment = {
+				support_equipment_1 > 300
+			}
+		}
+		name = nf_sln_journey.2.b
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = -300
+		}
+		country_event = {
+			id = nf_sln_journey.3
+			days = 20
+			random_days = 10
+		}
+	}
+}
+country_event = {
+	id = nf_sln_journey.3
+	title = nf_sln_journey.3.t
+	desc = nf_sln_journey.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_sln_journey.3.a
+		country_event = { id = nf_sln_journey.6	}
+	}
+	option = {
+		trigger = {
+			has_equipment = {
+				support_equipment_1 > 300
+			}
+		}
+		name = nf_sln_journey.3.b
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = -300
+		}
+		country_event = {
+			id = nf_sln_journey.4
+			days = 20
+			random_days = 10
+		}
+	}
+}
+country_event = {
+	id = nf_sln_journey.4
+	title = nf_sln_journey.4.t
+	desc = nf_sln_journey.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_sln_journey.4.a
+		country_event = { id = nf_sln_journey.6	}
+	}
+	option = {
+		trigger = {
+			has_equipment = {
+				support_equipment_1 > 400
+			}
+		}
+		name = nf_sln_journey.4.b
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = -400
+		}
+		country_event = {
+			id = nf_sln_journey.5
+			days = 20
+			random_days = 10
+		}
+	}
+}
+country_event = {
+	id = nf_sln_journey.5
+	title = nf_sln_journey.5.t
+	desc = nf_sln_journey.5.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SLN_rel_journey_done
+			complete_national_focus = sln_rel_returns
+		}
+	}
+
+	option = {
+		name = nf_sln_journey.5.a
+	}
+}
+
+# failure
+country_event = {
+	id = nf_sln_journey.6
+	title = nf_sln_journey.6.t
+	desc = nf_sln_journey.6.d
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SLN_rel_journey_done
+		}
+	}
+
+	option = {
+		name = nf_sln_journey.6.a
+		complete_national_focus = sln_the_top_dwellers_will_lead
+	}
+	option = {
+		name = nf_sln_journey.6.b
+		complete_national_focus = sln_the_den_dwellers_will_lead
+	}
+}

@@ -1,0 +1,74 @@
+SLN_vision_quest_cat = {
+	icon = decision_category_generic_economy
+    priority = 150
+	allowed = {
+		tag = SLN
+	}
+
+	visible = {
+		tag = SLN
+	}
+}
+
+
+SLN_scavenge = {
+	icon = decision_category_generic_economy
+	priority = 120
+	
+	allowed = {
+		tag = SLN
+	}
+
+	visible = {
+		has_completed_focus = sln_top_18
+		tag = SLN
+	}
+}
+SLN_burrow_cat = {
+	icon = decision_category_generic_economy
+    priority = 140
+	allowed = {
+		tag = SLN
+	}
+
+	visible = {
+		tag = SLN
+	}
+}
+
+SLN_scout_raids = {
+       icon = decision_category_generic_economy
+    priority = 130
+         allowed = {
+                 tag = SLN
+         }
+
+         visible = {
+                 tag = SLN
+          }
+}
+
+SLN_force_den = {
+	icon = decision_category_generic_economy
+	priority = 120
+	allowed = {
+		tag = SLN 
+	}
+	visible = {
+		has_completed_focus = sln_top_1
+		tag = SLN
+	}
+}
+
+SLN_temples = {
+	icon = decision_category_generic_economy
+	priority = 110
+	allowed = {
+		tag = SLN
+	}
+	visible = {
+		has_completed_focus = sln_den_genocide_65
+		tag = SLN
+	}
+}
+

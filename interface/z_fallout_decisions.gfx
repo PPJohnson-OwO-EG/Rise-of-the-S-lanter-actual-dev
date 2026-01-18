@@ -1,0 +1,1189 @@
+spriteTypes = {
+	#######################################
+	########## Category Pictures ##########
+	#######################################
+
+	spriteType = {
+		name = "GFX_decision_cat_picture_ncr_helios_one"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_ncr_helios_one.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_falloutboy_missile"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_falloutboy_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_mojave_campaign"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_mojave_campaign.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_legion"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_legion.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_legion_glory"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_legion_glory.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_choctaw_nuclear_fission"
+		texturefile = "gfx/interface/decisions/cho_guide_to_nuclear_fission.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_movie_reel"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_movie_reel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_steel_plague"
+		texturefile = "gfx/interface/decisions/decision_cat_steel_plague.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_circuit_board"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_circuit_board.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_vegas_chip"
+		texturefile = "gfx/interface/decisions/decision_category_picture_vegas_chip.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_jupiter_dec"
+		texturefile = "gfx/interface/decisions/pls_jupiter_dec.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_vulcan"
+		texturefile = "gfx/interface/decisions/pls_vulcan_dec.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_mercury"
+		texturefile = "gfx/interface/decisions/pls_mercury.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_infames_tm"
+		texturefile = "gfx/interface/decisions/Infames_TM.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ncr_mexico_cat"
+		texturefile = "gfx/interface/decisions/decision_ncr_mexico_cat.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_ncr_baseball"
+		texturefile = "gfx/interface/decisions/decision_cat_ncr_baseball.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_maxson_placeholder"
+		texturefile = "gfx/interface/decisions/decision_cat_maxson_placeholder.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_colorado"
+		texturefile = "gfx/interface/decisions/decision_colorado_expedition_resumed.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_colorado"
+		texturefile = "gfx/interface/decisions/decision_colorado_expedition_resumed.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_rob_broken_hearts"
+		texturefile = "gfx/interface/decisions/rob_broken_hearts.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_rob_mother_and_daughter"
+		texturefile = "gfx/interface/decisions/rob_mother_and_daughter.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_khan_authority"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_khan_authority.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_wardens_propaganda"
+		texturefile = "gfx/interface/decisions/decision_cat_wardens_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_whitewarden"
+		texturefile = "gfx/interface/decisions/decision_cat_whitewarden.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_spectral_cabal"
+		texturefile = "gfx/interface/decisions/decision_cat_spectral_cabal.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_steel_dame"
+		texturefile = "gfx/interface/decisions/decision_cat_steel_dame.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_pariah"
+		texturefile = "gfx/interface/decisions/decision_cat_pariah.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_stn_party"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_stn_party.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_loid_ekt_tabel"
+		texturefile = "gfx/interface/decisions/decision_cat_loid_ekt_tabel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_loid_ekt_storm"
+		texturefile = "gfx/interface/decisions/decision_cat_loid_ekt_storm.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_crimson_star"
+		texturefile = "gfx/interface/decisions/crimsonstar_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_nor_dec_peace"
+		texturefile = "gfx/interface/decisions/nor_dec_peace.dds"
+	}
+
+	#######################################
+	########### Category Icons ############
+	#######################################
+
+	spriteType = {
+		name = "GFX_decision_category_geck"
+		texturefile = "gfx/interface/decisions/decision_category_geck.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_spec_ops"
+		texturefile = "gfx/interface/decisions/decision_category_spec_ops.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_stimpak"
+		texturefile = "gfx/interface/decisions/decision_category_stimpak.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_denarius_legion"
+		texturefile = "gfx/interface/decisions/decision_category_legion_denarius.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_friends_legion"
+		texturefile = "gfx/interface/decisions/decision_category_legion_flags.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_vault_tec_calling"
+		texturefile = "gfx/interface/decisions/decision_category_vault_tec_calling.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_brk_raiding"
+		texturefile = "gfx/interface/decisions/decision_category_brk_raiding.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_brk_raiding_vic"
+		texturefile = "gfx/interface/decisions/decision_category_brk_raiding_vic.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_ncn_conversion"
+		texturefile = "gfx/interface/decisions/decision_category_ncn_conversion.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_caf_trading"
+		texturefile = "gfx/interface/decisions/decision_category_caf_trading.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_caf_generic"
+		texturefile = "gfx/interface/decisions/decision_category_caf_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_itz_eagle"
+		texturefile = "gfx/interface/decisions/decision_category_itz_eagle.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_itz_ocelotl"
+		texturefile = "gfx/interface/decisions/decision_category_itz_ocelotl.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_followers"
+		textureFile = "gfx/interface/decisions/decision_category_followers.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_cross"
+		textureFile = "gfx/interface/decisions/decision_category_cross.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_praying"
+		textureFile = "gfx/interface/decisions/decision_category_praying.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_generic_pantheon"
+		textureFile = "gfx/interface/decisions/decision_category_generic_pantheon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_platinum_chip"
+		textureFile = "gfx/interface/decisions/decision_cat_platinum_chip.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_white_wardens"
+		textureFile = "gfx/interface/decisions/decision_category_white_wardens.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decision_category_area51_sign"
+		texturefile = "gfx/interface/decisions/decision_category_area51_sign.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_vulcan_logo"
+		texturefile = "gfx/interface/decisions/pls_vulcan_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_mercury_logo"
+		texturefile = "gfx/interface/decisions/pls_mercury_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_coffee_field"
+		texturefile = "gfx/interface/decisions/pls_coffee_field.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mirelurk_claw_category"
+		texturefile = "gfx/interface/decisions/mirelurk_claw_category.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_rmm_chicago_shipments"
+		texturefile = "gfx/interface/decisions/decision_cat_rmm_chicago_shipments.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enclave_weapon_box"
+		texturefile = "gfx/interface/decisions/decision_enclave_weapon_box.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fusion_cell2"
+		texturefile = "gfx/interface/decisions/decision_fusion_cell2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_biplane"
+		texturefile = "gfx/interface/decisions/decision_biplane.dds"
+	}
+
+
+	#####NOR######
+	##Category####
+	spriteType = {
+		name = "GFX_decision_category_nordikon_desires"
+		textureFile = "gfx/interface/decisions/NOR/nor_nordikon_desires.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_biomass_ball"
+		textureFile = "gfx/interface/decisions/NOR/nor_biomass_ball.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_horror_masc_cat"
+		textureFile = "gfx/interface/decisions/NOR/nor_horror_masc_cat.dds"
+	}
+
+	#####COM######
+	##Category####
+	spriteType = {
+		name = "GFX_decision_cat_com_project_granite"
+		textureFile = "gfx/interface/decisions/decision_cat_com_project_granite.dds"
+	}
+
+	##decisions##
+	spriteType = {
+		name = "GFX_decision_biomass_ball_small"
+		textureFile = "gfx/interface/decisions/NOR/nor_biomass_ball_small.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_generosity"
+		textureFile = "gfx/interface/decisions/NOR/nor_generosity.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_richard"
+		textureFile = "gfx/interface/decisions/NOR/nor_richard.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_horror_eye"
+		textureFile = "gfx/interface/decisions/NOR/nor_horror_eye.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_house"
+		textureFile = "gfx/interface/decisions/NOR/nor_house.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_wheat_box"
+		textureFile = "gfx/interface/decisions/NOR/nor_wheat_box.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nor_blood_drop"
+		textureFile = "gfx/interface/decisions/NOR/nor_blood_drop.dds"
+	}
+    #####NOR######
+	#######################################
+	########### Decision Icons ############
+	#######################################
+
+	spriteType = {
+		name = "GFX_decision_cap_investment"
+		texturefile = "gfx/interface/decisions/decision_cap_investment.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_warden_icon"
+		texturefile = "gfx/interface/decisions/decision_warden_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_vault_boy"
+		texturefile = "gfx/interface/decisions/decision_vault_boy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decision_fungus"
+		texturefile = "gfx/interface/decisions/decision_fungus.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_plasma"
+		texturefile = "gfx/interface/decisions/decision_plasma.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_single_bottlecap"
+		texturefile = "gfx/interface/decisions/decision_single_bottlecap.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_stimpak"
+		texturefile = "gfx/interface/decisions/decision_stimpak.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_water_pump"
+		texturefile = "gfx/interface/decisions/decision_water_pump.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enc_propaganda"
+		texturefile = "gfx/interface/decisions/decision_enc_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_hammer"
+		texturefile = "gfx/interface/decisions/decision_hammer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pipegun_2"
+		texturefile = "gfx/interface/decisions/decision_pipegun_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_caf_trade_profits"
+		texturefile = "gfx/interface/decisions/decision_caf_trade_profits.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_caf_trade_mission"
+		texturefile = "gfx/interface/decisions/decision_caf_trade_mission.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_caf_trade_internal"
+		texturefile = "gfx/interface/decisions/decision_caf_trade_internal.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_caf_factories"
+		texturefile = "gfx/interface/decisions/decision_caf_factories.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_caf_beans"
+		texturefile = "gfx/interface/decisions/decision_caf_beans.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vault_tec"
+		texturefile = "gfx/interface/decisions/decision_vault_tec.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cross"
+		texturefile = "gfx/interface/decisions/decision_cross.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_praying"
+		texturefile = "gfx/interface/decisions/decision_praying.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_pantheon"
+		textureFile = "gfx/interface/decisions/decision_generic_pantheon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_criminal"
+		textureFile = "gfx/interface/decisions/criminal_underground_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_vulcan_logo_medium"
+		texturefile = "gfx/interface/decisions/pls_vulcan_logo_medium.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_mercury"
+		texturefile = "gfx/interface/decisions/pls_mercury.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_smol_sawjaw"
+		texturefile = "gfx/interface/decisions/pls_smol_sawjaw.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_mercury_logo_medium"
+		texturefile = "gfx/interface/decisions/pls_mercury_logo_medium.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_jupiter_logo"
+		texturefile = "gfx/interface/decisions/pls_jupiter_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_jupiter_logo_medium"
+		texturefile = "gfx/interface/decisions/pls_jupiter_logo_medium.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_thunder_dec"
+		texturefile = "gfx/interface/decisions/pls_thunder_dec.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pls_coffee_bean"
+		texturefile = "gfx/interface/decisions/pls_coffee_bean.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mirelurk_claw"
+		texturefile = "gfx/interface/decisions/mirelurk_claw.dds"
+	}
+
+
+	###########################################
+	########### Soviet's Additions ############
+	###########################################
+	spriteType = {
+		name = "GFX_decision_army_helmet"
+		textureFile = "gfx/interface/decisions/decision_army_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_atomic_V8"
+		textureFile = "gfx/interface/decisions/decision_atomic_V8.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_beacon"
+		textureFile = "gfx/interface/decisions/decision_beacon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_blueprint"
+		textureFile = "gfx/interface/decisions/decision_blueprint.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_brahmin"
+		textureFile = "gfx/interface/decisions/decision_brahmin.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bullet_45"
+		textureFile = "gfx/interface/decisions/decision_bullet_45.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chess"
+		textureFile = "gfx/interface/decisions/decision_chess.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_coffin"
+		textureFile = "gfx/interface/decisions/decision_coffin.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_container"
+		textureFile = "gfx/interface/decisions/decision_container.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fuse"
+		textureFile = "gfx/interface/decisions/decision_fuse.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_gold"
+		textureFile = "gfx/interface/decisions/decision_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_hammer"
+		textureFile = "gfx/interface/decisions/decision_hammer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_intercom"
+		textureFile = "gfx/interface/decisions/decision_intercom.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_knife"
+		textureFile = "gfx/interface/decisions/decision_knife.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_marine_helmet"
+		textureFile = "gfx/interface/decisions/decision_marine_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_medic"
+		textureFile = "gfx/interface/decisions/decision_medic.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_note"
+		textureFile = "gfx/interface/decisions/decision_note.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pet_rock"
+		textureFile = "gfx/interface/decisions/decision_pet_rock.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pipboy"
+		textureFile = "gfx/interface/decisions/decision_pipboy_fo4.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pipegun_2"
+		textureFile = "gfx/interface/decisions/decision_pipegun_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_satellite"
+		textureFile = "gfx/interface/decisions/decision_satellite.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_scav"
+		textureFile = "gfx/interface/decisions/decision_scav.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_screwdriver"
+		textureFile = "gfx/interface/decisions/decision_screwdriver.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_skull"
+		textureFile = "gfx/interface/decisions/decision_skull.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_stew_pot"
+		textureFile = "gfx/interface/decisions/decision_stew_pot.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_terminal"
+		textureFile = "gfx/interface/decisions/decision_terminal.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_tool_box"
+		textureFile = "gfx/interface/decisions/decision_tool_box.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_toy_soldier"
+		textureFile = "gfx/interface/decisions/decision_toy_soldier.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_trifold_flag"
+		textureFile = "gfx/interface/decisions/decision_trifold_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_tv"
+		textureFile = "gfx/interface/decisions/decision_tv.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vault_helmet"
+		textureFile = "gfx/interface/decisions/decision_vault_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vault_keycard"
+		textureFile = "gfx/interface/decisions/decision_vault_keycard.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_welder"
+		textureFile = "gfx/interface/decisions/decision_welder.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_welding"
+		textureFile = "gfx/interface/decisions/decision_welding.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mini_nuke"
+		textureFile = "gfx/interface/decisions/decision_mini_nuke.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_howitzer"
+		textureFile = "gfx/interface/decisions/decision_howitzer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mini_nuke"
+		textureFile = "gfx/interface/decisions/decision_mini_nuke.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_howitzer"
+		textureFile = "gfx/interface/decisions/decision_howitzer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_backpack"
+		textureFile = "gfx/interface/decisions/decision_backpack.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bag"
+		textureFile = "gfx/interface/decisions/decision_bag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_battery"
+		textureFile = "gfx/interface/decisions/decision_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_blueprint_2"
+		textureFile = "gfx/interface/decisions/decision_blueprint_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cap"
+		textureFile = "gfx/interface/decisions/decision_bottle_cap.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_box_closed"
+		textureFile = "gfx/interface/decisions/decision_box_closed.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_box_open"
+		textureFile = "gfx/interface/decisions/decision_box_open.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_briefcase"
+		textureFile = "gfx/interface/decisions/decision_briefcase.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cash"
+		textureFile = "gfx/interface/decisions/decision_cash.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chems"
+		textureFile = "gfx/interface/decisions/decision_chems.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chip_blue"
+		textureFile = "gfx/interface/decisions/decision_chip_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chip_green"
+		textureFile = "gfx/interface/decisions/decision_chip_green.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chip_red"
+		textureFile = "gfx/interface/decisions/decision_chip_red.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chip_yellow"
+		textureFile = "gfx/interface/decisions/decision_chip_yellow.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_commandore"
+		textureFile = "gfx/interface/decisions/decision_commandore.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_deagle"
+		textureFile = "gfx/interface/decisions/decision_deagle.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_dice"
+		textureFile = "gfx/interface/decisions/decision_dice.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_documents_1"
+		textureFile = "gfx/interface/decisions/decision_documents_1.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_documents_2"
+		textureFile = "gfx/interface/decisions/decision_documents_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_eyeball"
+		textureFile = "gfx/interface/decisions/decision_eyeball.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fireman_hat"
+		textureFile = "gfx/interface/decisions/decision_fireman_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_flamer"
+		textureFile = "gfx/interface/decisions/decision_flamer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fob"
+		textureFile = "gfx/interface/decisions/decision_fob.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_gas_mask"
+		textureFile = "gfx/interface/decisions/decision_gas_mask.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_geck"
+		textureFile = "gfx/interface/decisions/decision_geck.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_glasses"
+		textureFile = "gfx/interface/decisions/decision_glasses.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_hard_hat"
+		textureFile = "gfx/interface/decisions/decision_hard_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_jet"
+		textureFile = "gfx/interface/decisions/decision_jet.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_key"
+		textureFile = "gfx/interface/decisions/decision_key.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_medX"
+		textureFile = "gfx/interface/decisions/decision_medX.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mentats"
+		textureFile = "gfx/interface/decisions/decision_mentats.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_minning_helmet"
+		textureFile = "gfx/interface/decisions/decision_minning_helmet.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_money"
+		textureFile = "gfx/interface/decisions/decision_money.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_papers"
+		textureFile = "gfx/interface/decisions/decision_papers.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pitchfork"
+		textureFile = "gfx/interface/decisions/decision_pitchfork.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_psycho"
+		textureFile = "gfx/interface/decisions/decision_psycho.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_record"
+		textureFile = "gfx/interface/decisions/decision_record.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ringpulls"
+		textureFile = "gfx/interface/decisions/decision_ringpulls.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_swag_bag"
+		textureFile = "gfx/interface/decisions/decision_swag_bag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_t51"
+		textureFile = "gfx/interface/decisions/decision_t51.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_t51_vb_armor"
+		textureFile = "gfx/interface/decisions/decision_t51_vb_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_t51_vb_helm"
+		textureFile = "gfx/interface/decisions/decision_t51_vb_helm.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_teapot"
+		textureFile = "gfx/interface/decisions/decision_teapot.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_tool"
+		textureFile = "gfx/interface/decisions/decision_tool.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bullets"
+		textureFile = "gfx/interface/decisions/decision_bullets.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_shotgun"
+		textureFile = "gfx/interface/decisions/decision_shotgun.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_revolver"
+		textureFile = "gfx/interface/decisions/decision_revolver.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pistol"
+		textureFile = "gfx/interface/decisions/decision_pistol.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_minigun"
+		textureFile = "gfx/interface/decisions/decision_minigun.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_frag"
+		textureFile = "gfx/interface/decisions/decision_frag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_glove"
+		textureFile = "gfx/interface/decisions/decision_glove.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_shotgun_shells"
+		textureFile = "gfx/interface/decisions/decision_shotgun_shells.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_axe"
+		textureFile = "gfx/interface/decisions/decision_axe.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_blow_torch"
+		textureFile = "gfx/interface/decisions/decision_blow_torch.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bokken"
+		textureFile = "gfx/interface/decisions/decision_bokken.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_flamethrower"
+		textureFile = "gfx/interface/decisions/decision_flamethrower.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_football" # Soccer
+		textureFile = "gfx/interface/decisions/decision_football.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_jeep"
+		textureFile = "gfx/interface/decisions/decision_jeep.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_lockpick"
+		textureFile = "gfx/interface/decisions/decision_lockpick.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mainframe_1"
+		textureFile = "gfx/interface/decisions/decision_mainframe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_mainframe_2"
+		textureFile = "gfx/interface/decisions/decision_mainframe_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pistol_suppressed"
+		textureFile = "gfx/interface/decisions/decision_pistol_suppressed.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vertibird"
+		textureFile = "gfx/interface/decisions/decision_vertibird.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_armor"
+		textureFile = "gfx/interface/decisions/decision_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_book"
+		textureFile = "gfx/interface/decisions/decision_book.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cards_1"
+		textureFile = "gfx/interface/decisions/decision_cards_1.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cards_2"
+		textureFile = "gfx/interface/decisions/decision_cards_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cards_3"
+		textureFile = "gfx/interface/decisions/decision_cards_3.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cookie"
+		textureFile = "gfx/interface/decisions/decision_cookie.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fusion_cell"
+		textureFile = "gfx/interface/decisions/decision_fusion_cell.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_knife_2"
+		textureFile = "gfx/interface/decisions/decision_knife_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_med_bag"
+		textureFile = "gfx/interface/decisions/decision_med_bag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_medical"
+		textureFile = "gfx/interface/decisions/decision_medical.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pills"
+		textureFile = "gfx/interface/decisions/decision_pills.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pills_pot"
+		textureFile = "gfx/interface/decisions/decision_pills_pot.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_tablets"
+		textureFile = "gfx/interface/decisions/decision_tablets.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_trophy"
+		textureFile = "gfx/interface/decisions/decision_trophy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_wrench"
+		textureFile = "gfx/interface/decisions/decision_wrench.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_platinum_chip"
+		textureFile = "gfx/interface/decisions/decision_platinum_chip.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_boat"
+		textureFile = "gfx/interface/decisions/decision_boat.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chemistry_set"
+		textureFile = "gfx/interface/decisions/decision_chemistry_set.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ham_radio"
+		textureFile = "gfx/interface/decisions/decision_ham_radio.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_sandbags"
+		textureFile = "gfx/interface/decisions/decision_sandbags.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_tent"
+		textureFile = "gfx/interface/decisions/decision_tent.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_security_cam"
+		textureFile = "gfx/interface/decisions/decision_security_cam.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vt_power"
+		textureFile = "gfx/interface/decisions/decision_vt_power.dds"
+	}
+
+	###
+	spriteType = {
+		name = "GFX_decision_category_cartel"
+		textureFile = "gfx/interface/decisions/decision_category_cartel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cartel"
+		textureFile = "gfx/interface/decisions/decision_cartel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_bell"
+		textureFile = "gfx/interface/decisions/decision_category_bell.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_research"
+		textureFile = "gfx/interface/decisions/decision_category_research.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_gift"
+		textureFile = "gfx/interface/decisions/decision_gift.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_ffi_ring"
+		textureFile = "gfx/interface/decisions/decision_category_ffi_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ffi_mask"
+		textureFile = "gfx/interface/decisions/decision_ffi_mask.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ffi_wrestling"
+		textureFile = "gfx/interface/decisions/decision_ffi_wrestling.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_ncr_kimball_progressbar_grey"
+		textureFile = "gfx/interface/ncr_kimball_progressbar_grey.dds"
+	}
+	progressbartype = {
+		name = "GFX_ncr_kimball_progressbar_blue"
+		textureFile1 = "gfx/interface/ncr_kimball_progressbar_blue.dds"
+		textureFile2 = "gfx/interface/ncr_kimball_progressbar_transparent.dds"
+		size = { x = 450 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_ncr_kimball_progressbar_orange"
+		textureFile1 = "gfx/interface/ncr_kimball_progressbar_orange.dds"
+		textureFile2 = "gfx/interface/ncr_kimball_progressbar_transparent.dds"
+		size = { x = 450 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	#Movies!
+	spriteType = {
+		name = "GFX_decision_movie_barfly"
+		textureFile = "gfx/interface/decisions/movies/movie_barfly.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_communists"
+		textureFile = "gfx/interface/decisions/movies/movie_communists.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_fish"
+		textureFile = "gfx/interface/decisions/movies/movie_fish.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_furies"
+		textureFile = "gfx/interface/decisions/movies/movie_furies.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_love"
+		textureFile = "gfx/interface/decisions/movies/movie_love.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_ripper"
+		textureFile = "gfx/interface/decisions/movies/movie_ripper.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_movie_tokyo"
+		textureFile = "gfx/interface/decisions/movies/movie_tokyo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enclave_button"
+		textureFile = "gfx/interface/decisions/enclave_button.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_powered_icon"
+		textureFile = "gfx/interface/decisions/powered_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enc_helmet_color"
+		textureFile = "gfx/interface/decisions/decision_enc_helmet_color.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_enc_officer"
+		textureFile = "gfx/interface/decisions/decision_enc_officer.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enclave_rig_category"
+		textureFile = "gfx/interface/decisions/enclave_rig_category.dds"
+	}
+	## CAnada
+	spriteType = {
+		name = "GFX_decision_cat_burning_flag_canada"
+		textureFile = "gfx/interface/decisions/decision_cat_burning_flag_canada_.dds"
+	}
+######MANITOBA#####
+	spriteType = {
+		name = "GFX_decision_cat_bra_nordikon_logo"
+		textureFile = "gfx/interface/decisions/bra_nordikon_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_gangster_pose"
+		textureFile = "gfx/interface/decisions/gangster_pose.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_mosquito"
+		textureFile = "gfx/interface/decisions/bra_mosquito.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_bumblebee"
+		textureFile = "gfx/interface/decisions/bra_bumblebee.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_ant_termite"
+		textureFile = "gfx/interface/decisions/bra_ant_termite.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_yellowjacket"
+		textureFile = "gfx/interface/decisions/bra_yellowjacket.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_wasp"
+		textureFile = "gfx/interface/decisions/bra_wasp.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_dec_blizzard"
+		textureFile = "gfx/interface/decisions/bra_dec_blizzard.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_bra_dec_snowflake"
+		textureFile = "gfx/interface/decisions/bra_dec_snowflake.dds"
+	}
+
+######MANITOBA########
+	spriteType = {
+		name = "GFX_decision_gangster_pose"
+		textureFile = "gfx/interface/decisions/gangster_pose.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_chained_man"
+		textureFile = "gfx/interface/decisions/chained_man.dds"
+	}
+	spriteType = {
+		name = "GFX_eight_ball"
+		textureFile = "gfx/interface/decisions/eight_ball.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_metal"
+		textureFile = "gfx/interface/decisions/decision_metal.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_aelectronics"
+		textureFile = "gfx/interface/decisions/decision_aelectronics.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fusion_core"
+		textureFile = "gfx/interface/decisions/decision_fusion_core.dds"
+	}
+	spriteType = {
+		name = "GFX_fenrir_icon"
+		textureFile = "gfx/interface/decisions/fenrir_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_fenrir_icon_gold"
+		textureFile = "gfx/interface/decisions/fenrir_gold_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_hayman_icon"
+		textureFile = "gfx/interface/decisions/hayman_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_destiny_icon"
+		textureFile = "gfx/interface/decisions/destiny_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_hope_icon"
+		textureFile = "gfx/interface/decisions/hope_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_manifest_icon"
+		textureFile = "gfx/interface/decisions/manifest_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_wishmaiden"
+		textureFile = "gfx/interface/decisions/decision_wishmaiden.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_helm_ranger"
+		textureFile = "gfx/interface/decisions/decision_helm_ranger.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ncr_maier"
+		textureFile = "gfx/interface/decisions/decision_ncr_maier.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_steel_dame"
+		texturefile = "gfx/interface/decisions/decision_steel_dame.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_CSIS"
+		texturefile = "gfx/interface/decisions/decision_CSIS.dds"
+	}
+
+######Commonwealth########
+	spriteType = {
+		name = "GFX_decision_commonwealth_congress"
+		texturefile = "gfx/interface/decisions/decision_commonwealth_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_police_hat"
+		texturefile = "gfx/interface/decisions/decision_police_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_political_sway"
+		texturefile = "gfx/interface/decisions/decision_political_sway.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_texas_unrest"
+		texturefile = "gfx/interface/decisions/decision_texas_unrest.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_vault_boy_settlement"
+		texturefile = "gfx/interface/decisions/decision_vault_boy_settlement.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_pickaxe"
+		texturefile = "gfx/interface/decisions/decision_pickaxe.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fbi"
+		texturefile = "gfx/interface/decisions/decision_fbi.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_enclave_pa_helm"
+		texturefile = "gfx/interface/decisions/decision_enclave_pa_helm.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_mtc_hivemind"
+		texturefile = "gfx/interface/decisions/decision_cat_mtc_hivemind.dds"
+	}
+
+}

@@ -1,0 +1,461 @@
+every_possible_country = {
+	limit = {
+		is_allowed_settler_generic_high_command = yes
+	}
+	generate_character = {
+		token_base = generic_settler_command_one
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor11"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			ledger = army
+			traits = {
+				local_sherrif
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_command_two
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor22"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			ledger = army
+			traits = {
+				caravan_guard
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_command_three
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor22"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			ledger = army
+			traits = {
+				kind_mercenary
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_command_four
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor12"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			ledger = army
+			traits = {
+				frontline_operative
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_command_five
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor37"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			ledger = army
+			traits = {
+				settler_spymaster
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_allowed_settler_generic_chiefs = yes
+	}
+	generate_character = {
+		token_base = generic_settler_army_chief_one
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor6"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			ledger = army
+			traits = {
+				settler_expansion
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_army_chief_two
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor13"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			ledger = army
+			traits = {
+				settler_defend_trait
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_navy_chief
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor33"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			ledger = navy
+			traits = {
+				settler_navy_buff
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_air_chief
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor41"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			ledger = air
+			traits = {
+				settler_air_buff
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_allowed_settler_generic_theorists = yes
+	}
+	generate_character = {
+		token_base = generic_settler_research_advisor
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor32"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = research_advisor
+			ledger = army
+			traits = {
+				military_theorist
+			}
+			research_bonus = {
+				cat_grand_army = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_allowed_settler_generic_political_advisors = yes
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_one
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor8"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = economic_advisor
+			traits = {
+				caravan_trader
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_two
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor27"
+			}
+		}
+		advisor = {
+			cost = 50
+			slot = economic_advisor
+			traits = {
+				economic_expert
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_three
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor34"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = economic_advisor
+			traits = {
+				captain_of_industry
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_four
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor33"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = economic_advisor
+			traits = {
+				settler_military_industrial
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_five
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor35"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = economic_advisor
+			traits = {
+				settler_homestead_defence
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_economic_advisor_six
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor37"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = economic_advisor
+			traits = {
+				settler_oldworld_infrastructure
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = { original_tag = TVT }
+		}
+		generate_character = {
+			token_base = generic_settler_economic_advisor_seven
+			portraits = {
+				army = {
+					small = "GFX_idea_generic_advisor7"
+				}
+			}
+			advisor = {
+				cost = 50
+				slot = economic_advisor
+				traits = {
+					org_2_opinion_1
+				}
+				ai_will_do = {
+					#As of 4.0.4 AI cannot use organizations
+					#factor = 10
+					factor = 0
+				}
+			}
+		}
+		generate_character = {
+			token_base = generic_settler_economic_advisor_eight
+			portraits = {
+				army = {
+					small = "GFX_idea_generic_advisor31"
+				}
+			}
+			advisor = {
+				cost = 50
+				slot = economic_advisor
+				traits = {
+					org_1_opinion_1
+				}
+				ai_will_do = {
+					#As of 4.0.4 AI cannot use organizations
+					#factor = 10
+					factor = 0
+				}
+			}
+		}
+		generate_character = {
+			token_base = generic_settler_economic_nine
+			portraits = {
+				army = {
+					small = "GFX_idea_generic_advisor9"
+				}
+			}
+			advisor = {
+				cost = 100
+				slot = economic_advisor
+				traits = {
+					org_1_opinion_2
+				}
+				ai_will_do = {
+					#As of 4.0.4 AI cannot use organizations
+					#factor = 10
+					factor = 0
+				}
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_cultural_one
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor20"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = cultural_advisor
+			traits = {
+				man_of_community
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_cultural_two
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor15"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = cultural_advisor
+			traits = {
+				honest_speaker
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_cultural_three
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor32"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = cultural_advisor
+			traits = {
+				head_physician
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	generate_character = {
+		token_base = generic_settler_cultural_four
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_advisor35"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = cultural_advisor
+			traits = {
+				war_monger
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}

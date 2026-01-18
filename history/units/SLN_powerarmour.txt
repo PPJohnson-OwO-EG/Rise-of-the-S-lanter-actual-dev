@@ -1,0 +1,25 @@
+division_template = {
+	name = "Paladins Of The Glow"
+
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 0 y = 2 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+		power_armour = { x = 1 y = 2 }
+		power_armour = { x = 2 y = 0 }
+		power_armour = { x = 2 y = 1 }
+	}
+}
+
+units = {
+   division = {
+name = "Paladins Of The Glow"
+location = 3321
+division_template = "Paladins Of The Glow"
+start_experience_factor = 1.0
+start_equipment_factor = 1.0
+}
+}
+}

@@ -1,0 +1,81 @@
+characters = {
+	# country leaders
+	SLN_rel_ossin = {
+		name = SLN_REL_OSSIN_NAME
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SLN_REL_OSSIN
+			}
+		}
+		country_leader = {
+			desc = SLN_REL_OSSIN_DESCRIPTION
+			ideology = chieftain
+			expire = "3000.01.01.01"
+		}
+	}
+
+	SLN_top_leader = {
+		name = SLN_TOP_LEADER_NAME
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+			}
+		}
+		country_leader = {
+			desc = SLN_TOP_LEADER_DESCRIPTION
+			ideology = commune
+			expire = "3000.01.01.01"
+			id = -1
+		}
+	}
+
+	SLN_foreman_tok_ar_tok = {
+		name = SLN_foreman_tok_ar_tok
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+			}
+		}
+		country_leader = {
+			desc = SLN_DEN_LEADER_DESCRIPTION
+			ideology = tribalism
+			expire = "3000.01.01.01"
+			id = -1
+			
+		}
+	}
+	SLN_top_leader_general = {
+		name = SLN_TOP_LEADER_NAME_GENERAL
+		portraits = {
+			army = {
+                small = GFX_Portrait_SLN_mayor_aeyr
+            
+			}
+		}
+		field_marshal = {
+			traits = {
+				strong_trait
+				agile_trait
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			id = -1
+		}
+
+		advisor = {
+            slot = army_chief 
+            idea_token = bokzy_token
+            allowed = { original_tag = SLN } 
+            cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+            
+        }
+	}
+}
+

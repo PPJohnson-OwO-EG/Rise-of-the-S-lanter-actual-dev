@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Forest Protectors"
+	template_counter = 19
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Den Protectors"
+		location = 3321
+		division_template = "Forest Protectors"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Top World Protectors"
+		location = 2730
+		division_template = "Forest Protectors"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Warriors Of The Glow"
+		location = 8379
+		division_template = "Forest Protectors"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Defenders Of The Glow"
+		location = 2715
+		division_template = "Forest Protectors"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+}
+}
+	

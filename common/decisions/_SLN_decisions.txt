@@ -1,0 +1,209 @@
+SLN_vision_quest_cat = {
+    # countdown (lots of code stolen from sunburst)
+    SLN_vision_quest_countdown = {
+        allowed = { always = no } # handled by on_action
+        available = { hidden_trigger = { always = no } } # no way to 'complete' the mission
+        icon = gary
+        days_mission_timeout = 500
+        fire_only_once = yes
+        timeout_effect = {
+            country_event = nf_sln_journey.1
+        }
+    }
+}
+
+
+
+
+
+SLN_burrow_cat = {
+    SLN_burrow_civ = {
+        fire_only_once = no
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+        available = {
+            598 = {
+                AND = {
+                    is_fully_controlled_by = SLN
+                    industrial_complex > 0
+                }
+            }
+        }
+        cost = 50
+
+        remove_effect = {
+			598 = {
+                remove_building = {
+                    type = industrial_complex
+                    level = 1
+                }
+            }
+            add_offsite_building = {
+                type = industrial_complex
+                level = 1
+            }
+		}
+    }
+
+
+   
+
+
+    SLN_burrow_mil = {
+        fire_only_once = no
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+        available = {
+            598 = {
+                AND = {
+                    is_fully_controlled_by = SLN
+                    arms_factory > 0
+                }
+            }
+        }
+        cost = 50
+
+        remove_effect = {
+			598 = {
+                remove_building = {
+                    type = arms_factory
+                    level = 1
+                }
+            }
+            add_offsite_building = {
+                type = arms_factory
+                level = 1
+            }
+		}
+    }
+}
+    SLN_force_den = {
+        SLN_den_dweller_work = {
+			fire_only_once = no
+			days_remove = 60
+			ai_will_do = {
+				factor = 50
+			}
+		    cost = 25
+			
+            complete_effect = {
+                add_manpower = -30
+            }
+			remove_effect = {
+				add_manpower = 25
+				set_temp_variable = { caps_to_add = 35 }
+			add_caps = yes
+				
+			}
+		}
+		SLN_den_dweller_work_2 = {
+			fire_only_once = no
+			days_remove = 90
+			ai_will_do = {
+				factor = 35
+			}
+			cost = 50
+			
+            complete_effect = {
+                add_manpower = -50
+            }
+
+			remove_effect = {
+				add_manpower = 40
+				set_temp_variable = { caps_to_add = 75 }
+				add_caps = yes
+			}
+			
+		}
+        SLN_den_dweller_work_3 = {
+            fire_only_once = no
+            days_remove = 90
+            ai_will_do = {
+                factor = 60
+            }
+            cost = 100
+
+            complete_effect = {
+            add_timed_idea = {
+            idea = sln_building
+            days = 75
+            }
+
+           
+            
+	}
+        }
+    }
+
+    SLN_scout_raids = {
+    SLN_raid_enemy_positions = {
+    fire_only_once = no
+    days_remove = 100
+    ai_will_do = {
+        factor = 80
+    }
+    cost = 100
+      available = {
+    has_war = yes
+}
+
+    complete_effect = {
+    add_timed_idea = {
+    add_manpower = -50
+    idea = sln_scout_raids
+    days = 30
+}
+}
+    }
+    }
+
+    SLN_temples = {
+    SLN_build_new_temples = {
+    fire_only_once = no
+    days_remove = 90
+    ai_will_do = {
+        factor = 90
+    }
+    cost = 150
+    available = { 
+        has_completed_focus = sln_den_genocide_65
+    }
+    complete_effect = {
+        add_offsite_building = {
+                type = industrial_complex
+                level = 1
+            }
+    }
+    }
+    }
+    SLN_scavenge = {
+    SLN_scavenge_random = {
+    fire_only_once = no
+    days_remove = 30
+    ai_will_do = {
+    factor = 100
+    }
+    cost = 25
+    available = {
+    has_completed_focus = sln_top_18
+        }
+    complete_effect = {
+        add_manpower = -10
+    }
+    remove_effect = {
+        set_temp_variable = { caps_to_add = 25 }
+				add_caps = yes
+        add_manpower = 10
+        }
+    }
+    }
+    
+              			
+						
+		
+		
+				
