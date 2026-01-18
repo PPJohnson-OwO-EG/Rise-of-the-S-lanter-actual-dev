@@ -7,7 +7,7 @@
 #######################################################
 
 focus_tree = {
-	id = slanter_nf
+	id = slanter_nf #EDWARD IS NICE AND HANDSOME 
 	country = {
 		factor = 0
 		modifier = {
@@ -2923,3 +2923,4 @@ type = [annex_everything]
 	}
 }
 	
+
