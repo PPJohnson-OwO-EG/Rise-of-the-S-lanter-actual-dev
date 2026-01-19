@@ -780,9 +780,12 @@ focus_tree = {
 			y = 2
 			relative_position_id = sln_top_17
 			completion_reward = {
-
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
 			}
-			}
+		}
 
 			focus = {
 			id = sln_top_21
