@@ -765,7 +765,18 @@ focus_tree = {
 		y = 1
 		relative_position_id = sln_top_17
 		completion_reward = {
-
+			add_resource = {
+				type = metal
+				amount = 3
+				state = 598
+			}
+			add_resource = {
+				type = composites
+				amount = 3
+				state = 598
+			}
+			set_temp_variable = { caps_to_add = 30 }
+			add_caps = yes
 		}
 		}
 
