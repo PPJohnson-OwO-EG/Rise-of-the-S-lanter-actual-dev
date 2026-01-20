@@ -360,3 +360,23 @@ country_event = {
 		complete_national_focus = sln_the_den_dwellers_will_lead
 	}
 }
+
+country_event = {
+	id = nf_slanter.6
+	title = nf_slanter.6.t
+	desc = nf_slanter.6.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.6.a
+		add_ideas = sln_civ_increase
+	}
+	option = {
+		name = nf_slanter.6.b
+		add_offsite_building = {
+			type = industrial_complex
+			level = 1
+		}
+	}
+}

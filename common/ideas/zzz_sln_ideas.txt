@@ -787,6 +787,21 @@ ideas = {
 				caps_country_trade_modifier = 0.25
 			}
 		}
+		sln_civ_increase = {
+			picture = sln_construction
+			allowed = {
+				always = no 
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.01 
+				resource_efficiency_factor = 0.01
+			}
+		}
 
 		}
 	}

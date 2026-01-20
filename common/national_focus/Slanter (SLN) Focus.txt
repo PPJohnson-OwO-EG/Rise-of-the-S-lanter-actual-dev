@@ -7,7 +7,7 @@
 #######################################################
 
 focus_tree = {
-	id = slanter_nf #EDWARD IS NICE AND HANDSOME 
+	id = slanter_nf 
 	country = {
 		factor = 0
 		modifier = {
@@ -784,6 +784,7 @@ focus_tree = {
 					type = industrial_complex
 					level = 1
 				}
+				country_event = {id = nf_slanter.6}
 			}
 		}
 
