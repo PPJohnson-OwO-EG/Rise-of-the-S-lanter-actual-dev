@@ -380,3 +380,41 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = nf_slanter.7
+	title = nf_slanter.7.t
+	desc = nf_slanter.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.7.a
+		add_resource = {
+			type = water
+			amount = 5
+			state = 598
+		}
+		add_resource = {
+			type = metal
+			amount = 5
+			state = 598
+		}
+	}
+	option = {
+		name = nf_slanter.7.b
+		add_stability = 0.025
+	}
+	
+}
+country_event = {
+	id = nf_slanter.8
+	title = nf_slanter.8.t
+	desc = nf_slanter.8.d
+
+	is_triggered_only = yes	
+
+	option = {
+		name = nf_slanter.8.a
+	}
+}

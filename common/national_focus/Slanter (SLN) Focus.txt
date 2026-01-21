@@ -810,9 +810,9 @@ focus_tree = {
 			y = 2
 			relative_position_id = sln_top_17
 			completion_reward = {
-
+				country_event = {id = nf_slanter.7}
 			}
-			}
+		}
 
 			focus = {
 				id = sln_top_22
@@ -829,7 +829,14 @@ focus_tree = {
 				y = 3
 				relative_position_id = sln_top_17
 				completion_reward = {
+					add_building_construction = {
+						type = electricity_generator
+						level = 1
+						instant_build = yes
+					}
+					add_stability = 0.025
 				}
+				country_event = {id = nf_slanter.8}
 			}
 
 	
