@@ -103,7 +103,7 @@
   sln_den_final_4_desc:0 "This isn't any normal war, this is a war for OUR existence and survival as a species.\nEveryone, EVERYONE will take up arms and fight for our species, no matter their age, mental state or physical state."
   sln_den_genocide:0 "We've Done It!"
   sln_den_genocide_desc:0 "Finally!\nAfter all the pain inflicted on our people we have finally beaten back these savages and freed our brethren!\nNow is the time to celebrate!"
-  sln_den_genocide_2:0 "Wipe. Them. Out."
+  sln_den_genocide_2:0 "Wipe them Out."
   sln_den_genocide_2_desc:0 "We shall do to them what they tried to do to us:\n"Wipe them out and colonise them"\nWe will remove any traces of the Vipers, and not just the men, but the women and children too."
   sln_den_genocide_7:0 "Breed Like Rabbits"
   sln_den_genocide_7_desc:0 "In order to colonise and replace the human populations of these new lands, we must expand the population of our species as much as possible"
@@ -140,7 +140,7 @@
   sln_den_genocide_19_desc:0 "Wow!\nThese humans sure do have quite the technology!\nThese scientists will have SO much fun working with us now!\nThey even had some of our kin with them, though they don't know us so they must've been bred here for generations."
   sln_den_genocide_20:0 "Operation Libertas Maior"
   sln_den_genocide_20_desc:0 "With our bolstered economy and forces we are now able to free many more of our kin who are held captive!\nWe also got this weird dictionary off of some human trader and saw that these words sounded cool, so that shall be the operations title!"
-  sln_den_genocide_18:0 "They. Will. Pay."
+  sln_den_genocide_18:0 "They will Pay."
   sln_den_genocide_18_desc:0 "We will never do something like what they did...\nWe WILL make these people suffer for what they have done, they're going straight to the pits of hell, and we're sending them right in!"
   sln_den_genocide_21:0 "Smash The 'Protectrons'"
   sln_den_genocide_21_desc:0 "That's what they call themselves, what a silly name.\nWe should secure their territory to forget about what we saw in the Riperult and to keep our land in the south secure from the peoples of Esmeralda."
@@ -277,9 +277,18 @@
   sln_top_23_desc:0 "With our co-existence with humans we are now able to buy ourselves proper machinery for our workshops!"
   sln_top_18:0 "Scavenging Ruins"
   sln_top_18_desc:0 "The wasteland is littered with ruins, and our healthy relationship with humans allows us to pay for permission to enter these. Our small and nifty size will allow use to sneak and squeeze in anywhere, we're made for this."
+  sln_top_20:0 "Settling Ruins"
+  sln_top_20_desc:0 "Considering the fact that these ruins are our property after we scavenge them, setting up outposts and even settlements is beneficial to our cause of expanding our presence up top"
+  sln_top_19:0 "Expand Mining Operations"
+  sln_top_19_desc:0 "The lands we control don't have much in the way of metals, let alone precious metals. Scavenging is a solution, sure, but not a permanent one. Let's keep up what Den Dwellers are good at."
+  sln_top_21:0 "Exploiting the Land"
+  sln_top_21_desc:0 "The Den Dwellers underground networks are vast and expansive, we could continue our search for metals and water down there, but not without consequences."
+  sln_top_22:0 "Electrifying the Nation"
+  sln_top_22_desc:0 "Our scavenging and resource exploitation has not been without purpose, the foundation of a true country, a republic, requires many stepping stones. Electricity is one of them."
+  sln_top_jackals:0 "Our friendly Neighbours"
+  sln_top_jackals_desc:0 "I mean... They literally eat us."
 
-  
-  
+
   ### events ###
 
   nf_slanter.1.t: "Departure / Odyssey"
@@ -358,7 +367,20 @@
   nf_sln_top.1.t:0 "Busy Den Dwellers"
   nf_sln_top.1.d:0 "Tokar was a simple den dwellling Racree, religious, prideful, xenophobic, etc.\nFortunately, he has abandoned his primitive ways and now works at a workshop, producing simple equipment such as axes, hammers and more. But not to be used for their original purpose, but to be sold to humans as their small size is amusing to humans.\nTokar is not used to being paid and dealing with money. The tribe is changing."
   nf_sln_top.1.a:0 "§R"But is it for the better?"§R"
-  
+
+  nf_slanter.6.t:0 "But *how* exactly will we plan these out?"
+  nf_slanter.6.d:0 "We have plenty of people ready to start settling these locations, but there's a slight issue. We haven't decided on the number of areas we will settle. We could focus on a few major points of interest which will be a quick injection of capital, or we could settle over a large region which will make it easy to assert our economic dominance over a region. Though this will be more long-term."
+  nf_slanter.6.a:0 "Let's spread out over a large area"
+  nf_slanter.6.b:0 "We should focus on a few points of interest, we don't have the manpower for this."
+
+  nf_slanter.7.t:0 "A strike for gold, a strike at people."
+  nf_slanter.7.d:0 "The Den Dwellers live in complicated, deep and dense tunnels. The fact we haven't started taking advantage of these gateways to water and metal is baffling.\nThe Den Dwellers will be furious with this though, as the destruction of many of their homes and religious places will surely cause issues, maybe even revolts or desertions?\nNevertheless, a choice must be made, like always."
+  nf_slanter.7.a:0 "They'll be relocated up top anyway."
+  nf_slanter.7.b:0 "It's not worth the risk."
+
+  nf_slanter.8.t:0 "At the Speed of Light"
+  nf_slanter.8.d:0 "'Times are changing, aren't they?' the young Top Dweller mumbled out. 'Yeah...' She paused, before turning to look at him. The newly installed lightbulb swinging like a pendulum added to the awkwardness. 'Mikoz?' 'What?' she sighed. 'Don't you sometimes miss when things were... Simpler? Everything is so complicated now. There's humans all around the place, traders, fantastical lights and technology, I... Don't you feel like we're leaving our... Roots?' It was alot to take in.\n'Anza' He paused, thinking carefully for a moment. 'It was the only way our people could progress and survive, life isn't so bad anyway, we have so much new stuff, don't we?' 'It's all bread and circuses, Mikoz, your kind are trying to push us at impossible pace!' She was getting frustrated. 'What if there was another way? One where we could be one people, united and avoiding the outsiders, staying in our old ways as the old Gods of The Glow intended?' Mikoz shook his head, shaking away the notion with his paw. "You and your conservative ways, there's no point in stopping progress. We can't just isolate ourselves from the world, we have to keep moving" 
+  nf_slanter.8.a:0 "'At the speed of light'"
   
   ### tooltips ###
 
@@ -376,13 +398,22 @@
   sln_top_18_tt:0 "§GUnlocks decisions to scavenge ruins!"
   sln_dendwellerkill_tt:0 "§OThe Den Dwellers will take control after this, it is a good idea to do this after doing a few of the other focuses. Time is of the essence."
   sln_topdwellerkill_tt:0 "§OThe Top Dwellers will take control after this, it is a good idea to do this after doing a few of the other focuses. Time is of the essence."
- 
+  sln_den_genocide_34_tt:0 "§GWe will gain two small equipped freed slave divisions.§G"
+  sln_den_genocide_35_tt:0 "§GWe will gain three small equipped freed slave divisions.§G"
+  sln_den_genocide_19_tt:0 "§GWe will gain a division of Racree from Vault City.§G"
+  sln_den_genocide_60_tt:0 "§GWe will gain a division of robots."
+  sln_den_genocide_57_tt:0 "§GWe will gain a division of scouts."
+  sln_den_genocide_58_tt:0 "§GWe will gain a division of custom power armour wearing Racree."
+  sln_top_tippytip_tt:0 "§OYou should focus on puppeting nations rather than taking any land in this path."
+  sln_den_tippytip_tt:0 "§OYou should focus on slaughtering all of your neighbours rather than puppeting them, have fun!"
+  sln_den_viper_war_tt:0 "§RWe will declare war immediately after this focus is complete!"
+
   ### ideas ###
 
   sln_slanter_army:0 "The S'lanter Defence Force"
   sln_slanter_army_desc:0 "Our people are usually around 3 to 4 feet tall, 5 at the absolute most.\nWhile on the surface this may seem like a disadvantage, this is actually quite beneficial to our ability to traverse terrain and ambush our enemies!"
   
-  sln_buying_slave:0 "Buying back slaves"
+  sln_buying_slaves:0 "Buying back slaves"
   sln_buying_slaves_desc:0 "Hunting down slavers and freeing our people is time-consuming and expensive, it would be cheaper and easier to simply buy them back from the humans, we don't want to be seen as 'scary' by humans afterall."
 
   rel_ossin_dying: "Rel-Ossin's Illness"
@@ -467,6 +498,8 @@
   sln_scout_raids_desc:0 "S'lanter scouts are currently wreaking havoc behind enemy lines, but they won't be able to stay there forever!"
   sln_scout:0 "S'lanter Scouts"
   sln_scout_desc:0 "Highly mobile harassing units"
+  sln_civ_increase:0 "Focusing on New Settlements"
+  sln_civ_increase_desc:0 "Having a vast amount of settlements makes it easy to assert our control over an area."
   
   
   
