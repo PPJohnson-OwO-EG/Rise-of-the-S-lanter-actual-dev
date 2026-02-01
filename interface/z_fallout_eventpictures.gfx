@@ -7,6 +7,12 @@ spriteTypes = {
 	# GENERICS
 	################
 	spriteType = {
+		name = "slanteradvisor"
+		texturefile = "gfx/leaders/SLN/slanteradvisor.dds"
+	}
+
+
+	spriteType = {
 		name = "GFX_event_generic_desert_1"
 		texturefile = "gfx/event_pictures/event_generic_desert_1.dds"
 	}
