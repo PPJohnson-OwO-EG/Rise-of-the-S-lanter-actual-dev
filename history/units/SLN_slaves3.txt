@@ -23,7 +23,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
 	division = {
 		name = "Armed Slaves"
 		location = 3321
