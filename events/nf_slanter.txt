@@ -13,6 +13,7 @@ country_event = {
 	
 	option = {
 		name = nf_sln_top.1.a
+		add_ideas = sln_busy_den_dwellers
         
 	}
 }
@@ -371,6 +372,7 @@ country_event = {
 	option = {
 		name = nf_slanter.6.a
 		add_ideas = sln_civ_increase
+		add_manpower = -100
 	}
 	option = {
 		name = nf_slanter.6.b
@@ -392,18 +394,20 @@ country_event = {
 		name = nf_slanter.7.a
 		add_resource = {
 			type = water
-			amount = 5
+			amount = 10
 			state = 598
 		}
 		add_resource = {
 			type = metal
-			amount = 5
+			amount = 10
 			state = 598
 		}
+		add_stability = -0.075
+		add_manpower = -100
 	}
 	option = {
 		name = nf_slanter.7.b
-		add_stability = 0.025
+		add_stability = 0.05
 	}
 	
 }
