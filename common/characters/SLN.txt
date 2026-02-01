@@ -48,7 +48,8 @@ characters = {
 		name = SLN_TOP_LEADER_NAME_GENERAL
 		portraits = {
 			army = {
-                small = GFX_Portrait_SLN_mayor_aeyr
+		large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
             
 			}
 		}
@@ -69,7 +70,11 @@ characters = {
 		advisor = {
             slot = army_chief 
             idea_token = bokzy_token
-            allowed = { original_tag = SLN } 
+			desc = SLN_top_leader_general_desc
+            allowed = { original_tag = SLN }
+			traits = {
+				owb_army_infantry_2
+			} 
             cost = 100
 			ai_will_do = {
 				factor = 10
