@@ -23,7 +23,7 @@ ideas = {
 			removal_cost = no
 
 			modifier = {
-				caps_income_modifier = -0.075
+				caps_income_modifier = -0.05
 				monthly_population = 0.1
 				weekly_manpower = 10
 			}
@@ -103,7 +103,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = 0.15
+				army_attack_factor = 0.1
 			}
 		}
 		
@@ -798,8 +798,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_industrial_complex_factor = 0.01 
-				resource_efficiency_factor = 0.01
+				production_speed_industrial_complex_factor = 0.05 
+				local_resources_factor = 0.05
 			}
 		}
 
