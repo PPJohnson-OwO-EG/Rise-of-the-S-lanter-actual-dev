@@ -2,6 +2,29 @@ ideas = {
 	country = {
 
 		
+		vault_city_tax = {
+			picture = generic_vault_door
+			allowed = {
+				original_tag = SLN
+			}
+
+			modifier = {
+				caps_income_modifier = 0.05
+			}
+		}
+
+
+		vault_city_googoogaagaa_tax = {
+			picture = generic_vault_door
+			allowed = {
+				original_tag = SLN
+			}
+
+			modifier = {
+				caps_income_modifier = 0.015
+			}
+		}
+
 		bokzy_token = {
 			picture = mayor_aeyr
 			allowed = {

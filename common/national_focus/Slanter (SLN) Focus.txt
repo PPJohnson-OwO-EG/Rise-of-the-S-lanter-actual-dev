@@ -6,6 +6,24 @@
 #           Submod by PPJohnson/Razor1911 and KsM     #
 #######################################################
 
+#Focus template for you breddah
+#focus = {
+#	id = MAKE_ID
+#	icon = CHOOSE_ICON
+#   cost = 35
+#   prerequisite = {
+#   focus = CHOOSE_FOCUS
+#   }
+#   x = 1
+#   y = 1
+#   completion_reward = {
+#   }
+#   }
+
+
+
+
+
 focus_tree = {
 	id = slanter_nf 
 	country = {
@@ -694,7 +712,10 @@ focus_tree = {
 			add_state_core = 327
 			set_state_owner = 327
 			puppet = VIP
+			hidden_effect = {
 			create_faction = Slanter-Economic-Zone
+			}
+			custom_effect_tooltip =  sln_top_faction_create_tt
 		}
 	}
 	
@@ -719,9 +740,12 @@ focus_tree = {
 			create_wargoal = {
             type = puppet_wargoal_focus
             target = VIP
-      }
+      } 
+		hidden_effect = {
 		create_faction = Slanter-Economic-Zone
+		}
 		custom_effect_tooltip = sln_top_5_tt
+		custom_effect_tooltip = sln_top_faction_create_tt
 	}
 	}
 #Top Dweller Industry path
@@ -876,6 +900,7 @@ focus_tree = {
 		relative_position_id = sln_the_top_dwellers_will_lead
 		completion_reward = {
 			SLN = { add_to_faction = VLT }
+			custom_effect_tooltip = sln_top_vault_tt
 		}
 	}
 	
@@ -898,6 +923,7 @@ focus_tree = {
             type = puppet_wargoal_focus
             target = VLT
       }
+	  custom_effect_tooltip = sln_top_vault2_tt
 			
 		}
 	}
@@ -941,9 +967,95 @@ focus_tree = {
             type = puppet_wargoal_focus
             target = JAC
       }
+	  custom_effect_tooltip = sln_jackal_tt
 
 		}
 	}
+
+	focus = {
+		id = puppet_stuff
+		icon = GFX_goal_sln_trade
+		cost = 35
+		prerequisite = {
+			focus = sln_top_final_last
+		}
+		available = {
+			OR = {
+			has_completed_focus = sln_top_4
+			has_completed_focus = sln_top_5
+			}
+		}
+		x = -12
+		y = 3
+		relative_position_id = sln_the_top_dwellers_will_lead
+		completion_reward = {
+			custom_effect_tooltip = sln_top_puppet_tt
+		}
+	}
+
+	focus = {
+		id = puppet_viper
+		icon = GFX_goal_sln_vipers
+   		cost = 35
+   		prerequisite = {
+   			focus = puppet_stuff
+   		}
+		available = {
+			VIP = {
+				is_subject_of = SLN
+			}
+		}
+   		x = 0
+   		y = 1
+   		relative_position_id = puppet_stuff
+   		completion_reward = {
+			custom_effect_tooltip = sln_puppet_viper_tt
+
+   	}
+   }
+
+   focus = {
+		id = puppet_jackal
+		icon = GFX_goal_generic_cannibal
+   		cost = 35
+   		prerequisite = {
+   			focus = puppet_stuff
+   		}
+		available = {
+			VIP = {
+				is_subject_of = SLN
+			}
+		}
+   		x = 2
+   		y = 1
+   		relative_position_id = puppet_stuff
+   		completion_reward = {
+			custom_effect_tooltip = sln_puppet_jackal_tt
+
+   	}
+   }
+
+   focus = {
+		id = puppet_vault
+		icon = GFX_goal_enc_welcome_vlt_citizens
+   		cost = 35
+   		prerequisite = {
+   			focus = puppet_stuff
+   		}
+		available = {
+			VIP = {
+				is_subject_of = SLN
+			}
+		}
+   		x = -2
+   		y = 1
+   		relative_position_id = puppet_stuff
+   		completion_reward = {
+			custom_effect_tooltip = sln_puppet_vault_tt
+			
+
+   	}
+   }
 
 
 	
@@ -1081,6 +1193,31 @@ focus_tree = {
 			
 		}
 	}
+
+	focus = {
+		id = loot_the_vault
+		icon = GFX_goal_generic_advanced_ammo
+		cost = 35
+
+		prerequisite = {
+			focus = sln_top_14
+		}
+			available = {
+    		VLT = { SLN = { sphere_controls_all_core_land_of_prev = yes } }
+		}
+	
+		
+
+		
+		x = -6
+		y = 5
+		relative_position_id = sln_the_top_dwellers_will_lead
+		completion_reward = {
+			country_event = {id = nf_slanter.9}
+		}
+	}
+		
+	
 	
 	focus = {
 		id = sln_top_15
@@ -1090,6 +1227,7 @@ focus_tree = {
 		prerequisite = {
 			focus = sln_top_14
 		}
+		
 		x = -4
 		y = 5
 		relative_position_id = sln_the_top_dwellers_will_lead
@@ -1120,10 +1258,42 @@ focus_tree = {
 			
 			
 		}
-	
 
-		
+	}
+		focus = {
+			id = sln_top_raid_jackals
+			icon = GFX_goal_sln_blueprint
+			cost = 35
+			available = {
+				JAC = { SLN = { sphere_controls_all_core_land_of_prev = yes } }
+			}
+    		
+			
+
+			prerequisite = {
+				focus = sln_top_23
+				focus = sln_top_15
+			}
+			x = -3
+			y = 6
+			relative_position_id = sln_the_top_dwellers_will_lead
+			completion_reward = {
+				add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 250
+				producer = JAC
+				}
+			
+			set_temp_variable = { caps_to_add = 25 }
+			add_caps = yes
+			add_stability = -0.025
+			}
+	
 		}
+
+
+	
+	
 		
 	
 	
@@ -2532,7 +2702,7 @@ type = [annex_everything]
 		 y = 9
 		 relative_position_id = sln_den_genocide_6
 		 completion_reward = {
-			 manpower = 50
+			 add_manpower = 50
 			 add_tech_bonus = {
 				name = sln_den_genocide_33
 				bonus = 0.25

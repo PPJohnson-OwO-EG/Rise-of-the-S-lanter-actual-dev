@@ -287,6 +287,21 @@
   sln_top_22_desc:0 "Our scavenging and resource exploitation has not been without purpose, the foundation of a true country, a republic, requires many stepping stones. Electricity is one of them."
   sln_top_jackals:0 "Our friendly Neighbours"
   sln_top_jackals_desc:0 "I mean... They literally eat us."
+  sln_top_raid_jackals:0 "Jackal Caches"
+  sln_top_raid_jackals_desc:0 "Being a raider gang, they have a large stash of weapons... and drugs.\n\nDrugs mean money!"
+  puppet_stuff:0 "Managing our Benificaries"
+  puppet_stuff_desc:0 "We can't just waltz into an area and simply 'be in charge', we have to actually work and develop our beneficiaries in order to make any sort of profit."
+  puppet_vault:0 "Vault City Economic-Zone"
+  puppet_vault_desc:0 "Vault City is already a booming region, it'll be easy to extort money from them."
+  puppet_viper:0 "Viper Economic-Zone"
+  puppet_viper_desc:0 "The lands of the Vipers are not prosperous at all, but with a little work we can certainly turn them into the crossroads of our economic alliance."
+  puppet_jackal:0 "Jackal Economic-Zone"
+  puppet_jackal_desc:0 "The Jackals reside in a worthless piece of land, yet they have a way with dogs... Puppy farms!"
+  loot_the_vault:0 "Loot Vault City"
+  loot_the_vault_desc:0 "Vault 8, otherwise known as Vault City has many amenity centres with various goods. They'll be the easiest to confiscate and sell for ourselves, or should we simply take a cut of their sales?"
+
+
+
 
 
   ### events ###
@@ -381,7 +396,14 @@
   nf_slanter.8.t:0 "At the Speed of Light"
   nf_slanter.8.d:0 "'Times are changing, aren't they?' the young Top Dweller mumbled out. 'Yeah...' She paused, before turning to look at him. The newly installed lightbulb swinging like a pendulum added to the awkwardness. 'Mikoz?' 'What?' she sighed. 'Don't you sometimes miss when things were... Simpler? Everything is so complicated now. There's humans all around the place, traders, fantastical lights and technology, I... Don't you feel like we're leaving our... Roots?' It was alot to take in.\n'Anza' He paused, thinking carefully for a moment. 'It was the only way our people could progress and survive, life isn't so bad anyway, we have so much new stuff, don't we?' 'It's all bread and circuses, Mikoz, your kind are trying to push us at impossible pace!' She was getting frustrated. 'What if there was another way? One where we could be one people, united and avoiding the outsiders, staying in our old ways as the old Gods of The Glow intended?' Mikoz shook his head, shaking away the notion with his paw. "You and your conservative ways, there's no point in stopping progress. We can't just isolate ourselves from the world, we have to keep moving" 
   nf_slanter.8.a:0 "'At the speed of light'"
-  
+
+  nf_slanter.9.t:0 "Looting the City"
+  nf_slanter.9.d:0 "With our area of influence having expanded to Vault City, we now have the unique opportunity of seizing equipment and valuable items from it.\n\nThere are many amenity centres and shops, so it will be a hassle going through all of them and it will take some manpower to do so.\n\nBut there's a catch, doing this will hurt business in Vault City pretty badly. We could simply take a cut of their sales instead."
+  nf_slanter.9.a:0 "Take everything, they'll figure it out."
+  nf_slanter.9.b:0 "Let's just take a few things, and leave a tax on the rest."
+  nf_slanter.9.c:0 "We should leave everything and just place a fat tax on it instead."
+  nf_slanter.9.d2:0 "Fuck this! Too much trouble for what it's worth."
+
   ### tooltips ###
 
   sln_history_choice_top: "§gThis decision will increase the popularity of the §YTop Dwellers§! if they rule after §Y[SLN.GetLeader]'s§! §Rdeath§!.§!"
@@ -407,6 +429,15 @@
   sln_top_tippytip_tt:0 "§OYou should focus on puppeting nations rather than taking any land in this path."
   sln_den_tippytip_tt:0 "§OYou should focus on slaughtering all of your neighbours rather than puppeting them, have fun!"
   sln_den_viper_war_tt:0 "§RWe will declare war immediately after this focus is complete!"
+  sln_top_faction_create_tt:0 "§GWe will create a faction after this focus! §OYou will unlock a path to develop and grow your puppets, you are the master puppeteer."
+  sln_top_puppet_tt:0 "§OWe will unlock a decision category to develop our puppets and extract money, resources and manpower from them.\n\nYou must do the focuses below to unlock any decisions however."
+  sln_top_vault_tt:0 "§ONot all Vault Citizens are receptive of 'mutants', sometimes forceful submission is necessary rather than peace."
+  sln_top_vault2_tt:0 "§OThey're racists."
+  sln_puppet_vault_tt:0 "§GWe will unlock a decision to tax Vault City!"
+  sln_puppet_viper_tt:0 "§GWe will unlock a decision to tax the Vipers!"
+  sln_puppet_jackal_tt:0 "§GWe will unlock a decision to tax the Jackals!"
+  sln_jackal_tt:0 "§OSure they literally eat us, but puppeting them unlocks a path in the focus tree! Content = good!"
+
 
   ### ideas ###
 
@@ -500,7 +531,10 @@
   sln_scout_desc:0 "Highly mobile harassing units"
   sln_civ_increase:0 "Focusing on New Settlements"
   sln_civ_increase_desc:0 "Having a vast amount of settlements makes it easy to assert our control over an area."
-  
+  vault_city_tax:0 "Vault City Tax"
+  vault_city_tax_desc:0 "We are taxing the sale of Vault City goods. Caps caps caps!"
+  vault_city_googoogaagaa_tax:0 "Light Vault City Tax"
+  vault_city_googoogaagaa_tax_desc:0 "We are putting a light tax on the sale of Vault City goods."
   
   
   ### decisions ###
@@ -538,3 +572,12 @@
   SLN_scavenge_desc:0 "With our positive relations with humans, it is alot easier to explore the ruins of the 'Old World'. We might have to pay to explore some of these, but the return will most likely be worth it."
   SLN_scavenge_random:0 "Explore Random Ruins"
   SLN_scavenge_random_desc:0 "Most ruins are boring, and that's not a bad thing. It's cheap to explore them, usually safe and a profit is guaranteed."
+
+  SLN_puppet:0 "Our Beneficiaries"
+  SLN_puppet_desc:0  "With the growth of our influence in these nations we now have the ability to exploit them in all sorts of special ways."
+  SLN_tax_viper:0 "Tax the Snakes"
+  SLN_tax_viper_desc:0 "Their experience with snake venom is very interesting, sell it and tax it!"
+  SLN_tax_jackal:0 "Tax the Jackals"
+  SLN_tax_jackal_desc:0 "Puppies surely have a market in the wasteland, right?"
+  SLN_tax_vault:0 "Tax the citizens of Vault City"
+  SLN_tax_vault_desc:0 "They're wealthy and educated, they won't miss their money, better than paying taxes to the NCR."

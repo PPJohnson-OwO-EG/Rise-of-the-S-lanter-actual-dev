@@ -422,3 +422,41 @@ country_event = {
 		name = nf_slanter.8.a
 	}
 }
+
+country_event = {
+	id = nf_slanter.9
+	title = nf_slanter.9.t
+	desc= nf_slanter.9.d
+	picture = GFX_event_vault_city_growth
+
+	is is_triggered_only = yes
+
+	option = {
+		name = nf_slanter.9.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+			producer = VLT
+		}
+		add_stability = -0.05
+	}
+	option = {
+		name = nf_slanter.9.b
+		add_ideas = vault_city_googoogaagaa_tax
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 250
+			producer = VLT
+		}
+		add_stability = -0.025
+	}
+	option = {
+		name = nf_slanter.9.c
+		add_ideas = vault_city_tax
+		add_stability = -0.01
+	}
+	option = {
+		name = nf_slanter.9.d2
+		add_stability = 0.05
+	}
+}

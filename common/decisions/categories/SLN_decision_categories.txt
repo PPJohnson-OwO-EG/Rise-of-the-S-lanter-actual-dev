@@ -10,6 +10,18 @@ SLN_vision_quest_cat = {
 	}
 }
 
+SLN_puppet = {
+	icon = GFX_deicsion_caps_category
+	priority = 150
+	allowed = {
+		tag = SLN
+	}
+
+	visible = {
+		has_completed_focus = puppet_stuff
+	}
+}
+
 
 SLN_scavenge = {
 	icon = decision_category_generic_economy

@@ -95,7 +95,7 @@ SLN_burrow_cat = {
             }
 			remove_effect = {
 				add_manpower = 25
-				set_temp_variable = { caps_to_add = 35 }
+				set_temp_variable = { caps_to_add = 25 }
 			add_caps = yes
 				
 			}
@@ -114,7 +114,7 @@ SLN_burrow_cat = {
 
 			remove_effect = {
 				add_manpower = 40
-				set_temp_variable = { caps_to_add = 75 }
+				set_temp_variable = { caps_to_add = 50 }
 				add_caps = yes
 			}
 			
@@ -201,6 +201,61 @@ SLN_burrow_cat = {
         }
     }
     }
+
+    SLN_puppet = {
+        SLN_tax_viper = {
+            fire_only_once = no
+            icon = GFX_decision_single_cap
+            days_remove = 45
+            ai_will_do = {
+                factor = 100
+            }
+            cost = 15
+            available = {
+                has_completed_focus = puppet_viper
+            }
+            remove_effect = {
+                set_temp_variable = { caps_to_add = 30 }
+				add_caps = yes
+            }
+        }
+
+         SLN_tax_jackal = {
+            fire_only_once = no
+            icon = GFX_decision_single_cap
+            days_remove = 30
+            ai_will_do = {
+                factor = 100
+            }
+            cost = 10
+            available = {
+                has_completed_focus = puppet_jackal
+            }
+            remove_effect = {
+                set_temp_variable = { caps_to_add = 10 }
+				add_caps = yes
+            }
+        }
+
+         SLN_tax_vault = {
+            fire_only_once = no
+            icon = GFX_decision_single_cap
+            days_remove = 60
+            ai_will_do = {
+                factor = 100
+            }
+            cost = 25
+            available = {
+                has_completed_focus = puppet_vault
+            }
+            remove_effect = {
+                set_temp_variable = { caps_to_add = 50 }
+				add_caps = yes
+            }
+        }
+
+    }
+            
     
               			
 						
