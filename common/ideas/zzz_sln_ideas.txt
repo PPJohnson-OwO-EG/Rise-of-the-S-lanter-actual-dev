@@ -1,6 +1,48 @@
 ideas = {
 	country = {
 
+		sln_beneficiaries_idea = {
+			picture = GFX_goal_sln_stonks
+			allowed = {
+				original_tag = SLN
+			}
+
+			modifier = {
+			}
+		}
+
+
+
+		sln_logging_idea = {
+			picture = GFX_goal_sln_nurture_industry
+			allowed = {
+				original_tag = SLN
+			}
+
+			modifier = {
+				caps_income_modifier = 0.1
+				stability_factor = -0.075
+			}
+		}
+
+
+
+
+		sln_gold_mine = {
+			picture = GFX_goal_sln_nurture_industry
+			allowed = {
+				original_tag = SLN
+			}
+
+			modifier = {
+				caps_income_modifier = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+
+
+
 		
 		vault_city_tax = {
 			picture = generic_vault_door

@@ -429,13 +429,18 @@ country_event = {
 	desc= nf_slanter.9.d
 	picture = GFX_event_vault_city_growth
 
-	is is_triggered_only = yes
+	is_triggered_only = yes
 
 	option = {
 		name = nf_slanter.9.a
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 500
+			producer = VLT
+		}
+		add_equipment_to_stockpile = {
+			type = spec_ops_equipment
+			amount = 50
 			producer = VLT
 		}
 		add_stability = -0.05

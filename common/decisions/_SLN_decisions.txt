@@ -203,12 +203,30 @@ SLN_burrow_cat = {
     }
 
     SLN_puppet = {
+         SLN_tax_vault = {
+            fire_only_once = no
+            icon = GFX_decision_single_cap
+            days_remove = 60
+            ai_will_do = {
+                factor = 110
+            }
+            cost = 25
+            available = {
+                has_completed_focus = puppet_vault
+            }
+            remove_effect = {
+                set_temp_variable = { caps_to_add = 50 }
+				add_caps = yes
+            }
+        }
+        
+        
         SLN_tax_viper = {
             fire_only_once = no
             icon = GFX_decision_single_cap
             days_remove = 45
             ai_will_do = {
-                factor = 100
+                factor = 80
             }
             cost = 15
             available = {
@@ -225,7 +243,7 @@ SLN_burrow_cat = {
             icon = GFX_decision_single_cap
             days_remove = 30
             ai_will_do = {
-                factor = 100
+                factor = 70
             }
             cost = 10
             available = {
@@ -237,24 +255,35 @@ SLN_burrow_cat = {
             }
         }
 
-         SLN_tax_vault = {
+        
+
+    }
+
+
+    SLN_mercenary = {
+        SLN_shitty_mercenary = {
             fire_only_once = no
-            icon = GFX_decision_single_cap
-            days_remove = 60
+            days_remove = 90
             ai_will_do = {
                 factor = 100
             }
-            cost = 25
+            cost = 10 
             available = {
-                has_completed_focus = puppet_vault
+                has_completed_focus = sln_top_14
+            }
+            complete_effect = {
+                set_temp_variable = { caps_to_add = -50 }
+				add_caps = yes
+                hidden_effect = {
+                load_oob = SLN_shitty_mercenary2
+                }
             }
             remove_effect = {
-                set_temp_variable = { caps_to_add = 50 }
-				add_caps = yes
+                delete_unit_template_and_units = { division_template = "Hired Mercenaries" }
             }
         }
-
     }
+
             
     
               			

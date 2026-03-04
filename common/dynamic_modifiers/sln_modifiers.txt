@@ -1,0 +1,21 @@
+
+
+
+
+
+beneficiary_modifier = {
+	icon = sln_expand
+	enable = { always = yes }
+	caps_income_modifier = sln_caps_income_modifier
+	army_infantry_attack_factor = sln_attack_modifier 
+	army_infantry_defence_factor = sln_defence_modifier 
+	research_speed_factor = sln_research_modifier 
+	breakthrough_factor = sln_breakthrough_factor
+	
+}
+
+
+
+ben_upgrade_vlt = {
+	caps_income_modifier = 0.025
+}
