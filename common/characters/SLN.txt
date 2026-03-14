@@ -82,5 +82,31 @@ characters = {
             
         }
 	}
+
+	# country advisors(economic and culture)
+	SLN_economic_advisor_1 = {
+		name = SLN_economic_advisor_1
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_SLN_mayor_aeyr
+			}
+		}
+		
+		advisor = {
+			slot = economic_advisor
+			idea_token = SLN_economic_advisor_1_id
+			desc = SLN_economic_advisor_1_desc
+			allowed = {
+				original_tag = SLN
+			}
+			research_bonus = {
+				industry = 0.15
+			}			
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
 }
 
