@@ -76,6 +76,11 @@ recruit_character = SLN_rel_ossin
 recruit_character = SLN_top_leader
 recruit_character = SLN_foreman_tok_ar_tok
 recruit_character = SLN_top_leader_general
+recruit_character = SLN_Zakyr
+recruit_character = SLN_Bozk
+recruit_character = SLN_Tor
+recruit_character = SLN_Firz
+recruit_character = SLN_Hak
 
 add_ideas = rel_ossin_dying
 add_ideas = sln_slanter_army

@@ -83,30 +83,160 @@ characters = {
         }
 	}
 
-	# country advisors(economic and culture)
-	SLN_economic_advisor_1 = {
-		name = SLN_economic_advisor_1
+	SLN_Zakyr = {
+		name = SLN_Zakyr
 		portraits = {
-			civilian = {
-				small = GFX_Portrait_SLN_mayor_aeyr
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
 			}
 		}
 		
 		advisor = {
-			slot = economic_advisor
-			idea_token = SLN_economic_advisor_1_id
-			desc = SLN_economic_advisor_1_desc
-			allowed = {
-				original_tag = SLN
+            slot = economic_advisor
+            idea_token = zakyr_token
+			desc = SLN_zakyr_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 125
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.025
 			}
-			research_bonus = {
-				industry = 0.15
-			}			
-			cost = 100
 			ai_will_do = {
 				factor = 10
 			}
-		}
+            
+        }
 	}
+
+	SLN_Bozk = {
+		name = SLN_Bozk
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+		}
+		
+		advisor = {
+            slot = economic_advisor
+            idea_token = bozk_token
+			desc = SLN_bozk_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				caps_income_modifier = -0.025
+			}
+			ai_will_do = {
+				factor = 10
+			}
+            
+        }
+	}
+
+	SLN_Tor = {
+		name = SLN_Tor
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+		}
+		
+		advisor = {
+            slot = economic_advisor
+            idea_token = tor_token
+			desc = SLN_tor_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				caps_income_modifier = 0.1
+				stability_factor = -0.1
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+            
+        }
+	}
+
+	SLN_Firz = {
+		name = SLN_Firz
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+		}
+		
+		advisor = {
+            slot = economic_advisor
+            idea_token = firz_token
+			desc = SLN_firz_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				caps_income_modifier = 0.05
+				consumer_goods_factor = -0.025
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+
+			available = {
+				has_country_flag = forestry_flag
+			}
+            
+        }
+	}
+
+	SLN_Hak = {
+		name = SLN_Hak
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+		}
+		
+		advisor = {
+            slot = economic_advisor
+            idea_token = hak_token
+			desc = SLN_hak_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				research_speed_factor = 0.15
+				political_power_factor = -0.1
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+            
+        }
+	}
+
+	
+
+
 }
 

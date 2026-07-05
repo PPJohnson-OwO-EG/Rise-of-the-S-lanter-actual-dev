@@ -1,0 +1,10 @@
+SLN = {
+    army = {
+        male = {
+            GFX_Portrait_SLN_mayor_aeyr
+        }
+	female = {
+	    GFX_Portrait_SLN_mayor_aeyr
+	}
+    }
+}

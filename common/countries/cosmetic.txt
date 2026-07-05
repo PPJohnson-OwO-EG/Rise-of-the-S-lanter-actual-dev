@@ -1,20 +1,25 @@
 VLT_slanter = {
-	color = { 15 112 38  }
+	color = rgb { 15 112 38  }
 	color_ui = rgb { 15 112 38 }
 }
 
 VIP_slanter = {
-	color = { 15 112 38  }
+	color = rgb { 15 112 38  }
 	color_ui = rgb { 15 112 38 }
 }
 
 JAC_slanter = {
-	color = { 15 112 38  }
+	color = rgb { 15 112 38  }
 	color_ui = rgb { 15 112 38 }
 }
 
 PAL_slanter = {
-	color = { 15 112 38  }
+	color = rgb { 15 112 38  }
+	color_ui = rgb { 15 112 38 }
+}
+
+RIP_slanter = {
+	color = rgb { 15 112 38  }
 	color_ui = rgb { 15 112 38 }
 }
 

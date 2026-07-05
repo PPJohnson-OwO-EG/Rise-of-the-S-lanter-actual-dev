@@ -892,6 +892,7 @@ focus_tree = {
 					add_offsite_building = {
                 	type = industrial_complex
                 	level = 1
+					set_country_flag = forestry_flag
             		}
 				}
 			}
@@ -961,7 +962,7 @@ focus_tree = {
 			hidden_effect = {
 			add_opinion_modifier = {
     		target = VLT
-    		modifier = cheat_opinion_modifier_good
+    		modifier = vault_city_trade
     	}
 			}
     		set_temp_variable = { caps_to_add = -50 }
@@ -1053,6 +1054,8 @@ focus_tree = {
 	y = 2
 	relative_position_id = puppet_stuff
 	completion_reward = {
+		custom_effect_tooltip = sln_coming_soon_tt
+		PAL = { set_cosmetic_tag = PAL_slanter }
 	}
    }
 
@@ -1221,8 +1224,13 @@ focus_tree = {
 		relative_position_id = sln_top_11
 		completion_reward = {
 			add_ideas = sln_gold_mine
+			add_timed_idea = {
+    			idea = sln_integrating_elko
+    			days = 180
+			}
 			set_temp_variable = { caps_to_add = -200 }
 			add_caps = yes
+			
 		}
 	}
 
@@ -1232,6 +1240,11 @@ focus_tree = {
 		cost = 35
 		prerequisite = {
 			focus = pup_elko
+		}
+		available = {
+    		NOT = {
+				has_idea = sln_integrating_elko
+			}
 		}
 		x = -2.5
 		y = 3
@@ -1244,23 +1257,7 @@ focus_tree = {
 
 
 
-	focus = {
-		id = sln_top_16
-		icon = GFX_goal_sln_peace
-		cost = 35
-		prerequisite = {
-		   focus = sln_top_13
-		}
-		prerequisite ={
-		   focus = sln_top_12
-		}
-		x = 0
-		y = 2
-		relative_position_id = sln_top_11
-		completion_reward = {
-			
-		}
-	}
+	 
 	
 	focus = {
 		id = sln_top_14

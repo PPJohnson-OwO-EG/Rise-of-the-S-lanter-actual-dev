@@ -1,0 +1,6 @@
+opinion_modifiers = {
+
+	vault_city_trade = {
+		value = 75
+	}
+}

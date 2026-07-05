@@ -6,6 +6,6 @@ tags={
 dependencies={
 	"Old World Blues"
 }
-name="Slanter Expansion"
-supported_version="1.17.*"
+name="Slanter Expansion DEV"
+supported_version="1.19.*"
 remote_file_id="3154888821"

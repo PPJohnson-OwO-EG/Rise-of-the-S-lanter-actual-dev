@@ -10,7 +10,16 @@
   SLN_DEN_LEADER_DESCRIPTION: "Tok-Ar-Tok has been the de facto leader of the Den Dwellers since before Rel-Ossin took over. He was a calm and steady presence during the reign of Rinar, but after her death he has grown more fearful and paranoid of the wraith of The Masters. Tok-Ar-Tok now sees the wasteland as a sea of threats and is prepared to dig S'Lanter into a fortification in order to survive."
   SLN_TOP_LEADER_NAME_GENERAL: "Bokzyr"
   SLN_top_leader_general_desc: "Bokzyr is the commander of the defence force, he has the hard task of balancing the den and top dwellers there."
-
+  SLN_Zakyr: "Zakyr"
+  SLN_zakyr_desc: "A carpenter at heart, Zakyr has taken up the position of Master Builder, leading all construction efforts in the wood-lands."
+  SLN_Bozk: "Bozk-Al"
+  SLN_bozk_desc: "Bozk-Al leads our current manufacturing operations, he's great at his job but supposedly he sells excess goods for himself. Whatever."
+  SLN_Tor: "Tor-Tor"
+  SLN_tor_desc: "The mastermind behind the trinket business, he's able to bleed your pockets dry with his charisma."
+  SLN_Firz: "Firz"
+  SLN_firz_desc: "A Den Dweller turned Top Dweller at a young age, he sees the felling of the local woods as an economic priority, and is willing to lead the workers."
+  SLN_Hak: "Hak"
+  SLN_hak_desc: "Estranged from his local community, he spends most of his time tinkering and experimenting inside his den. He doesn't particularly care for what happens outside of his home.\n\nHe's a bit of a prick."
 
 
   sln_an_escape: "Departure / Odyssey"
@@ -309,7 +318,8 @@
   puppet_2_desc:0 "We have many new opportunities to add more beneficiaries to our cause, and increase our influence within the ones we already have under our tails."
   sln_logging:0 "Logging Operations"
   sln_logging_desc:0 "We have the the luck of being gifted with a vast, untouched woodland. This is rare in the wasteland, and fresh logs would fetch a high price."
-
+  pup_elko2:0 "Bring Elko into the fold"
+  pup_elko2_desc:0 "The posse has come to rely on our economic partnership, perhaps deeper integration is necessary."
 
 
   ### events ###
@@ -388,7 +398,7 @@
   nf_sln_genocide.5.a:0 "For we are her Children of the Glow."
   
   nf_sln_top.1.t:0 "Busy Den Dwellers"
-  nf_sln_top.1.d:0 "Tokar was a simple den dwellling Racree, religious, prideful, xenophobic, etc.\nFortunately, he has abandoned his primitive ways and now works at a workshop, producing simple equipment such as axes, hammers and more. But not to be used for their original purpose, but to be sold to humans as their small size is amusing to humans.\nTokar is not used to being paid and dealing with money. The tribe is changing."
+  nf_sln_top.1.d:0 "Tokar was a simple den dwelling Racree, religious, prideful, xenophobic, etc.\nFortunately, he has abandoned his primitive ways and now works at a workshop, producing simple equipment such as axes, hammers and more. But not to be used for their original purpose, but to be sold to humans as their small size is amusing to humans.\nTokar is not used to being paid and dealing with money. The tribe is changing."
   nf_sln_top.1.a:0 "§R"But is it for the better?"§R"
 
   nf_slanter.6.t:0 "But *how* exactly will we plan these out?"
@@ -403,7 +413,7 @@
 
   nf_slanter.8.t:0 "At the Speed of Light"
   nf_slanter.8.d:0 "'Times are changing, aren't they?' the young Top Dweller mumbled out. 'Yeah...' She paused, before turning to look at him. The newly installed lightbulb swinging like a pendulum added to the awkwardness. 'Mikoz?' 'What?' she sighed. 'Don't you sometimes miss when things were... Simpler? Everything is so complicated now. There's humans all around the place, traders, fantastical lights and technology, I... Don't you feel like we're leaving our... Roots?' It was alot to take in.\n'Anza' He paused, thinking carefully for a moment. 'It was the only way our people could progress and survive, life isn't so bad anyway, we have so much new stuff, don't we?' 'It's all bread and circuses, Mikoz, your kind are trying to push us at impossible pace!' She was getting frustrated. 'What if there was another way? One where we could be one people, united and avoiding the outsiders, staying in our old ways as the old Gods of The Glow intended?' Mikoz shook his head, shaking away the notion with his paw. "You and your conservative ways, there's no point in stopping progress. We can't just isolate ourselves from the world, we have to keep moving" 
-  nf_slanter.8.a:0 "'At the speed of light'"
+  nf_slanter.8.a:0 "§C'At the speed of light'§!"
 
   nf_slanter.9.t:0 "Looting the City"
   nf_slanter.9.d:0 "With our area of influence having expanded to Vault City, we now have the unique opportunity of seizing equipment and valuable items from it.\n\nThere are many amenity centres and shops, so it will be a hassle going through all of them and it will take some manpower to do so.\n\nBut there's a catch, doing this will hurt business in Vault City pretty badly. We could simply take a cut of their sales instead."
@@ -445,7 +455,8 @@
   sln_puppet_viper_tt:0 "§GWe will unlock a decision to tax the Vipers!\n\nWe will also gain 5% more breakthrough."
   sln_puppet_jackal_tt:0 "§GWe will unlock a decision to tax the Jackals!\n\nWe will also gain 5% more attack."
   sln_jackal_tt:0 "§OSure they literally eat us, but puppeting them unlocks a path in the focus tree! Content = good!"
-
+  sln_coming_soon_tt:0 "§RIN DEVELOPMENT\n\nComing soon!§R"
+  sln_jackal_warriors_tt:0 "§GWe will gain two conscripted divisions of Jackals!§!"
 
   ### ideas ###
 
@@ -551,7 +562,11 @@
   sln_beneficiaries_idea_desc:0 "With each state we influence, we are able to profit off of them.\n\n§OYou must do focuses in the beneficiaries path in order to make this spirit do something!"
   beneficiary_modifier:0 "Beneficiaries"
   beneficiary_modifier_desc:0 "With each state we influence, we are able to profit off of them.\n\n§OYou must do focuses in the beneficiaries path in order to make this spirit do something!"
-  
+  sln_integrating_elko:0 "Elko's Integration"
+  sln_integrating_elko_desc:0 "We are deepening our ties with Elko."
+
+
+
   ### decisions ###
   
   
@@ -588,6 +603,10 @@
   SLN_scavenge_random:0 "Explore Random Ruins"
   SLN_scavenge_random_desc:0 "Most ruins are boring, and that's not a bad thing. It's cheap to explore them, usually safe and a profit is guaranteed."
 
+  SLN_shitty_mercenary:0 "Hire basic Mercenaries"
+  SLN_shitty_mercenary_desc:0 "Cheap, basic, barely armed. The three qualities of any reliable gun for hire..."
+
+
   SLN_puppet:0 "Our Beneficiaries"
   SLN_puppet_desc:0  "With the growth of our influence in these nations we now have the ability to exploit them in all sorts of special ways."
   SLN_tax_viper:0 "Tax the Snakes"
@@ -596,3 +615,5 @@
   SLN_tax_jackal_desc:0 "Puppies surely have a market in the wasteland, right?"
   SLN_tax_vault:0 "Tax the citizens of Vault City"
   SLN_tax_vault_desc:0 "They're wealthy and educated, they won't miss their money, better than paying taxes to the NCR."
+  SLN_jackal_warriors:0 "Request Jackal Warriors"
+  SLN_jackal_warriors_desc:0 "With our influence in the Jackals, we can 'request' some soldiers from them."
