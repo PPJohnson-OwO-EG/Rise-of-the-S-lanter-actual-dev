@@ -81,6 +81,21 @@ recruit_character = SLN_Bozk
 recruit_character = SLN_Tor
 recruit_character = SLN_Firz
 recruit_character = SLN_Hak
+recruit_character = SLN_Del
+recruit_character = SLN_Ashka
+recruit_character = SLN_Sennit
+recruit_character = SLN_Rikka
+recruit_character = SLN_Ules
+recruit_character = SLN_Meshin
+recruit_character = SLN_Corvenna
+recruit_character = SLN_Threzz
+recruit_character = SLN_Bosun
+recruit_character = SLN_Skree
+recruit_character = SLN_Ashtoll
+recruit_character = SLN_Vennick
+
+
+
 
 add_ideas = rel_ossin_dying
 add_ideas = sln_slanter_army

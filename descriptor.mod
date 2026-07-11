@@ -1,4 +1,4 @@
-version="0.4"
+version="0.45"
 tags={
 	"National Focuses"
 	"Gameplay"
@@ -6,6 +6,6 @@ tags={
 dependencies={
 	"Old World Blues"
 }
-name="Slanter Expansion DEV"
+name="OWB: Rise of The S'lanter DEV"
 supported_version="1.19.*"
 remote_file_id="3154888821"

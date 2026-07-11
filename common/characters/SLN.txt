@@ -58,6 +58,7 @@ characters = {
 				strong_trait
 				agile_trait
 				hill_fighter
+				loved_leader_trait
 			}
 			skill = 3
 			attack_skill = 2
@@ -199,7 +200,7 @@ characters = {
 			}
 
 			available = {
-				has_country_flag = forestry_flag
+				has_completed_focus = sln_logging
 			}
             
         }
@@ -235,8 +236,473 @@ characters = {
         }
 	}
 
-	
+	SLN_Del = {
+		name = SLN_Del
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = del_token
+			desc = SLN_del_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			
+            
+        }
+	}
+
+	SLN_Ashka = {
+		name = SLN_Ashka
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = ashka_token
+			desc = SLN_ashka_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				stability_factor = 0.10
+				army_core_defence_factor = 0.05
+				
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+				NOT = {
+						has_completed_focus = sln_the_top_dwellers_will_lead
+					}
+			}
+            
+        }
+	}
+
+	SLN_Sennit = {
+		name = SLN_Sennit
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+
+		corps_commander = {
+			traits = {
+				agile_trait
+				awareness_trait
+				Stubborn_trait
+
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+			id = -1
+		}
+		
+		advisor = {
+            slot = theorist
+            idea_token = sennit_token
+			desc = SLN_sennit_desc
+            allowed = { original_tag = SLN }
+			traits = {
+				military_theorist
+			} 
+            cost = 100
+			modifier = {
+			}
+			research_bonus = {
+				cat_land_doctrine = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			
+            
+        }
+	}
+
+
+	SLN_Rikka = {
+		name = SLN_Rikka
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = rikka_token
+			desc = SLN_rikka_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				stability_factor = 0.025
+				conscription = 0.005
+				war_support_factor = 0.05
+				
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+				NOT = {
+						has_completed_focus = sln_the_top_dwellers_will_lead
+					}
+			}
+            
+        }
+	}
+
+	SLN_Ules = {
+		name = SLN_Ules
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = ules_token
+			desc = SLN_ules_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				political_power_factor = 0.15
+				opinion_gain_monthly_factor = 0.05
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+				NOT = {
+						has_completed_focus = sln_the_den_dwellers_will_lead
+					}
+			}
+            
+        }
+	}
+
+	SLN_Meshin = {
+		name = SLN_Meshin
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = meshin_token
+			desc = SLN_meshin_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 75
+			modifier = {
+				monthly_population = 0.15
+				compliance_growth = 0.05
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+
+			}
+            
+        }
+	}
+
+	SLN_Corvenna = {
+		name = SLN_Corvenna
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = cultural_advisor
+            idea_token = corvenna_token
+			desc = SLN_corvenna_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.15
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+				NOT = { has_country_leader = { ruling_only = yes character = SLN_rel_ossin }
+
+			}
+            
+        }
+	}
+	}
+
+	SLN_Threzz = {
+		name = SLN_Threzz
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = army_chief
+            idea_token = threzz_token
+			desc = SLN_threzz_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.01
+				defence = 0.15
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {
+				NOT = { has_completed_focus = sln_the_top_dwellers_will_lead
+
+			}
+            
+        }
+	}
+}
+
+SLN_Bosun = {
+		name = SLN_Bosun
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = navy_chief
+            idea_token = bosun_token
+			desc = SLN_bosun_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 25
+			modifier = {
+				experience_gain_navy = 0.05
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {  
+        }
+	}
+}
+
+SLN_Skree = {
+		name = SLN_Skree
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = air_chief
+            idea_token = skree_token
+			desc = SLN_skree_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 75
+			modifier = {
+				experience_gain_air = 0.05
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {  
+        }
+	}
+}
+
+SLN_Ashtoll = {
+		name = SLN_Ashtoll
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+		
+		advisor = {
+            slot = high_command
+            idea_token = ashtoll_token
+			desc = SLN_ashtoll_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				supply_consumption_factor = -0.15
+				local_supplies = 0.05
+				max_planning = 0.05
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {  
+        }
+	}
+}
+
+SLN_Vennick = {
+		name = SLN_Vennick
+		portraits = {
+			army = {
+				large = GFX_Portrait_SLN_mayor_aeyr
+                small = slanteradvisor
+            
+			}
+			civilian = {
+				small = slanteradvisor
+			}
+		}
+
+		corps_commander = {
+			traits = {
+				perceptive_trait
+				awareness_trait
+				desert_fox
+
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+			id = -1
+		}
+		
+		advisor = {
+            slot = high_command
+            idea_token = vennick_token
+			desc = SLN_vennick_desc
+            allowed = { original_tag = SLN }
+			traits = {
+			} 
+            cost = 100
+			modifier = {
+				army_speed_factor = 0.1
+					
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			available = {  
+        }
+	}
+}
+
 
 
 }
+
+
 
